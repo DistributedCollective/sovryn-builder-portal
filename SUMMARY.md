@@ -14,6 +14,7 @@
 * [Overview](ui-library/overview.md)
 * [Getting Started](ui-library/getting-started.md)
 * [Accordion](ui-library/accordion.md)
+* [Components](ui-library/components.md)
 
 ## sovryn-onboard
 
