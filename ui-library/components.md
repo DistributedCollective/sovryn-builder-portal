@@ -6,7 +6,7 @@ description: Work with Components
 
 ## Component Development Guide
 
-This document provides instructions on how to work with components, including creating, extending, and testing them. It also covers guidelines for writing unit tests, minimum requirements for tests, code structure style choices, and following the development team's design principles. Please follow the instructions below:
+This document provides instructions on how to work with components, including implementation, composition, and testing. It also covers guidelines for writing unit tests, minimum requirements for tests, code structure style choices, and following the development team's design principles. Please follow the instructions below.
 
 ## Overview of Steps to Create a Component
 
@@ -15,7 +15,7 @@ To create a component, follow these steps:
 1. Determine the purpose and functionality of the component.
 2. Based on the atomic design methodology, classify the component into one of the atomic design categories: atoms, molecules, organisms, templates, or pages.
 3. Create a new directory for the component - `ComponentName`, using the appropriate atomic design category as the directory name.
-4. Create the necessary files for the component, such as the main component file, styling files (`ComponentName.module.css`), an optional utility `ComponentName.utils.ts` file, and a ComponentName.types.ts file for TypeScript type definitions.
+4. Create necessary files for the component, such as the main component file, styling files (`ComponentName.module.css`), an optional utility `ComponentName.utils.ts` file, and a ComponentName.types.ts file for TypeScript type definitions.
 5. Create an `index.ts` file within the component directory to export all relevant components, functions, and types from the component.
 6. Implement the component's functionality according to the project requirements.
 7. Ensure the component adheres to the development team's design principles and style choices (refer to the "_Style Choices for Code Structure_" section below).
