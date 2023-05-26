@@ -19,7 +19,7 @@ To create a component, follow these steps:
 5. Create an <mark style="color:red;">`index.ts`</mark> file within the component directory to export all relevant components, functions, and types from the component.
 6. Ensure the component adheres to the development team's design principles and style choices (refer to the "_Style Choices for Code Structure_" section below).
 7. Test the component (refer to the "_How to Write Unit Tests_" section below).
-8. In the "UI Library" section of Gitbook, provide concise documentation for the component's usage, API, and key implementation details. This ensures users have a clear understanding of how to use the component effectively in their projects.
+8. In the "_UI Library_" section of Gitbook, provide concise documentation for the component's usage, API, and key implementation details. This ensures users have a clear understanding of how to use the component effectively in their projects.
 9. If the component is reusable and can be extended, consider creating documentation on how to extend it.
 10. Create a Storybook story for the component (refer to the "_Using Storybook_" section below).\
 
@@ -34,7 +34,7 @@ To follow the Sovryn development team's [design principles and maintain code con
 4. **Keep Code Concise**: Avoid lengthy functions/components. Use smaller, focused units for better comprehension, testing, and maintenance.
 5. **Maintain Proper Formatting**: Consistently apply indentation and formatting for improved readability.
 6. **Document Code**: Use comments to explain the logic, provide context, and enhance collaboration.
-7. **Styling**: For styling components, it is recommended to utilize separate <mark style="color:red;">`ComponentName.module.css`</mark> files to define component-specific styles. This practice ensures that only classes defined within the component are used, promoting encapsulation and preventing class name conflicts. However, developers can still incorporate Tailwind CSS styles by leveraging the `@apply` directive. You can refer to the provided documentation link for further details: [Styling Guidelines](https://github.com/DistributedCollective/sovryn-dapp/wiki/Code-Style#styling).\
+7. **Styling**: For styling components, it is recommended to utilize separate <mark style="color:red;">`ComponentName.module.css`</mark> files to define component-specific styles. This practice ensures that only classes defined within the component are used, promoting encapsulation and preventing class name conflicts. However, developers can still incorporate Tailwind CSS styles by leveraging the **`@apply`** directive. You can refer to the provided documentation link for further details: [Styling Guidelines](https://github.com/DistributedCollective/sovryn-dapp/wiki/Code-Style#styling).\
 
 
 ## How to Write Unit Tests
@@ -44,8 +44,8 @@ Follow these guidelines when writing unit tests for components:
 1. Create a separate test file for your component, typically named <mark style="color:red;">`ComponentName.test.tsx`</mark>.
 2. Write individual test cases within the test file to cover different aspects of your component's functionality.
 3. Utilize Jest's testing APIs, such as **`describe`**, **`test`**, **`expect`**, and others, to structure and assert the desired behavior of your component.
-4. Run the tests using the Jest test runner with the command **npm test** or **yarn test**.
-5. Review the test results in the terminal, and ensure that all tests pass successfully.
+4. Run the tests using the Jest test runner with the command **`npm test`** or **`yarn test`**.
+5. Review the test results in the terminal, and ensure that all tests pass <mark style="color:green;">successfully</mark>.
 6. Tests should cover edge cases.
 7. When testing components consisting of other components, you don't need to test the base functionality already covered in these child components.
 
@@ -72,7 +72,7 @@ To use Storybook for your component:
 
 1. Create a new story file in your component's directory, typically named <mark style="color:red;">`ComponentName.stories.tsx`</mark>.
 2. Import and define the stories for your component using Storybook's API. Each story represents a different variation or state of the component.
-3. Within the story definition, add a property called <mark style="color:blue;">`argTypes`</mark> and assign it an object. Each key in this object should correspond to a prop name, and the value should be an object containing the description for that prop. For example:
+3. Within the story definition, add a property called **`argTypes`** and assign it an object. Each key in this object should correspond to a prop name, and the value should be an object containing the description for that prop. For example:
 
 ```javascript
 argTypes: {
@@ -86,7 +86,7 @@ argTypes: {
 }
 ```
 
-Replace `prop1` and `prop2` with the actual names of your props, and provide the corresponding descriptions for each prop.
+Replace **`prop1`** and **`prop2`** with the actual names of your props, and provide the corresponding descriptions for each prop.
 
 
 
