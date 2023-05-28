@@ -15,7 +15,7 @@ To create a component, follow these steps:
 1. Determine the purpose and functionality of the component.
 2. Based on [the atomic design methodology](https://github.com/DistributedCollective/sovryn-dapp/wiki/Design), classify the component into one of the atomic design categories: atoms, molecules, organisms, templates, or pages.
 3. Create a new directory for the component - <mark style="color:red;">`ComponentName`</mark>, using the appropriate atomic design category as the directory name.
-4. Create necessary files for the component, such as the main component file, styling files (<mark style="color:red;">`ComponentName.module.css`</mark>), an optional utility <mark style="color:red;">`ComponentName.utils.ts`</mark> file, and a ComponentName.types.ts file for TypeScript type definitions.
+4. Create necessary files for the component, such as the main component file, styling files (<mark style="color:red;">`ComponentName.module.css`</mark>), an optional utility <mark style="color:red;">`ComponentName.utils.ts`</mark> file, and a <mark style="color:red;">`ComponentName.types.ts`</mark> file for TypeScript type definitions.
 5. Create an <mark style="color:red;">`index.ts`</mark> file within the component directory to export all relevant components, functions, and types from the component.
 6. Ensure the component adheres to the development team's design principles and style choices (refer to the "_Style Choices for Code Structure_" section below).
 7. Test the component (refer to the "_How to Write Unit Tests_" section below).
