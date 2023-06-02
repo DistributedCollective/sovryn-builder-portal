@@ -15,6 +15,13 @@
 * [Getting Started](ui-library/getting-started.md)
 * [Accordion](ui-library/accordion.md)
 * [Badge](ui-library/badge.md)
+* [HealthBar](ui-library/healthbar.md)
+* [Paragraph](ui-library/paragraph.md)
+* [Link](ui-library/link.md)
+* [Icon](ui-library/icon.md)
+* [Lottie](ui-library/lottie.md)
+* [Toggle](ui-library/toggle.md)
+* [Input](ui-library/input.md)
 * [Components](ui-library/components.md)
 
 ## sovryn-onboard
