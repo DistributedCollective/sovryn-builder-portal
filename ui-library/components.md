@@ -21,7 +21,8 @@ To create a component, follow these steps:
 7. Test the component (refer to the "_How to Write Unit Tests_" section below).
 8. In the "_UI Library_" section of Gitbook, provide concise documentation for the component's usage, API, and key implementation details. This ensures users have a clear understanding of how to use the component effectively in their projects.
 9. If the component is reusable and can be extended, consider creating documentation on how to extend it.
-10. Create a Storybook story for the component (refer to the "_Using Storybook_" section below).\
+10. Create a Storybook story for the component (refer to the "_Using Storybook_" section below).
+11. To display the red asterisk for required props, for instance, `children` and show the prop type in Storybook, you can update the component's prop definition by adding a description using the JSDoc syntax.\
 
 
 ## Style Choices for Code Structure
