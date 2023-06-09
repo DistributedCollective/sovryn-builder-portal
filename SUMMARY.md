@@ -13,16 +13,17 @@
 
 * [Overview](ui-library/overview.md)
 * [Getting Started](ui-library/getting-started.md)
-* [Accordion](ui-library/accordion.md)
-* [Badge](ui-library/badge.md)
-* [HealthBar](ui-library/healthbar.md)
-* [Paragraph](ui-library/paragraph.md)
-* [Link](ui-library/link.md)
-* [Icon](ui-library/icon.md)
-* [Lottie](ui-library/lottie.md)
-* [Toggle](ui-library/toggle.md)
-* [Input](ui-library/input.md)
-* [Components](ui-library/components.md)
+* [Atoms](ui-library/atoms/README.md)
+  * [Accordion](ui-library/atoms/accordion.md)
+  * [Badge](ui-library/atoms/badge.md)
+  * [HealthBar](ui-library/atoms/healthbar.md)
+  * [Icon](ui-library/atoms/icon.md)
+  * [Input](ui-library/atoms/input.md)
+  * [Link](ui-library/atoms/link.md)
+  * [Lottie](ui-library/atoms/lottie.md)
+  * [Paragraph](ui-library/atoms/paragraph.md)
+  * [Toggle](ui-library/atoms/toggle.md)
+* [Working with Components](ui-library/working-with-components.md)
 
 ## sovryn-onboard
 
