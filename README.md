@@ -1,3 +1,3 @@
 # Homepage
 
-Welcome to the Sovryn developer portal! This site is currently under construction
+Welcome to the Sovryn Builder Portal! This site is currently under construction
