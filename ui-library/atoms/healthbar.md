@@ -6,7 +6,7 @@ description: HealthBar component
 
 ## Description
 
-The HealthBar component is an indicator of the user's collateral ratio. It has 2 states: the default state that shows the current collateral ratio, and the dynamic state that shows what the collateral ratio will be based on an adjustment to the debt or collateral input fields
+The HealthBar component is an indicator of the user's collateral ratio. It has 2 states: the default state that shows the current collateral ratio, and the dynamic state that shows what the collateral ratio will be based on an adjustment to the debt or collateral input fields.
 
 ## Figma
 
