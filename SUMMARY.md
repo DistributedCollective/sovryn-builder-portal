@@ -34,12 +34,43 @@
 * [Page 3](sovryn.app/page-3.md)
 * [Page 1](sovryn.app/page-1.md)
 
-## Sovryn Core Protocol
+## Smart Contracts
 
-* [Swaps](sovryn-core-protocol/swaps.md)
-* [Lending/Borrowing](sovryn-core-protocol/lending-borrowing.md)
-* [Margin Trading](sovryn-core-protocol/margin-trading.md)
-* [Staking/Vesting/Bitocracy](sovryn-core-protocol/staking-vesting-bitocracy.md)
+* [Overview](smart-contracts/overview.md)
+* [AMM](smart-contracts/amm/README.md)
+  * [Liquidity](smart-contracts/amm/liquidity.md)
+  * [Conversion](smart-contracts/amm/conversion.md)
+  * [Oracles](smart-contracts/amm/oracles.md)
+  * [Wrapper](smart-contracts/amm/wrapper.md)
+* [Lending and Margin Trading Protocol](smart-contracts/lending-and-margin-trading-protocol/README.md)
+  * [Lending](smart-contracts/lending-and-margin-trading-protocol/lending.md)
+  * [Borrowing](smart-contracts/lending-and-margin-trading-protocol/borrowing.md)
+  * [Margin Trading](smart-contracts/lending-and-margin-trading-protocol/margin-trading.md)
+  * [Collateral Management](smart-contracts/lending-and-margin-trading-protocol/collateral-management.md)
+* [Liquidity Mining](smart-contracts/liquidity-mining/README.md)
+  * [Deposit](smart-contracts/liquidity-mining/deposit.md)
+  * [Withdraw](smart-contracts/liquidity-mining/withdraw.md)
+  * [Rewards](smart-contracts/liquidity-mining/rewards.md)
+* [Zero](smart-contracts/zero/README.md)
+  * [Opening a LoC](smart-contracts/zero/opening-a-loc.md)
+  * [Adjusting a LoC](smart-contracts/zero/adjusting-a-loc.md)
+  * [Closing a LoC](smart-contracts/zero/closing-a-loc.md)
+  * [Redeeming against a LoC](smart-contracts/zero/redeeming-against-a-loc.md)
+  * [Stability Pool](smart-contracts/zero/stability-pool.md)
+* [Mynt / DLLR](smart-contracts/mynt-dllr/README.md)
+  * [Mint](smart-contracts/mynt-dllr/mint.md)
+  * [Burn](smart-contracts/mynt-dllr/burn.md)
+* [Bitocracy](smart-contracts/bitocracy/README.md)
+  * [Staking](smart-contracts/bitocracy/staking.md)
+  * [Delegating](smart-contracts/bitocracy/delegating.md)
+  * [SIPS](smart-contracts/bitocracy/sips.md)
+  * [Voting](smart-contracts/bitocracy/voting.md)
+  * [Fee Sharing](smart-contracts/bitocracy/fee-sharing.md)
+
+## Bridges
+
+* [FastBTC](bridges/fastbtc.md)
+* [Token Bridge](bridges/token-bridge.md)
 
 ## Other products
 
