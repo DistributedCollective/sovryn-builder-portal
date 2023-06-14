@@ -27,7 +27,11 @@
 
 ## sovryn-onboard
 
-* [Page 2](sovryn-onboard/page-2.md)
+* [Overview](sovryn-onboard/overview.md)
+* [Installation](sovryn-onboard/installation.md)
+* [Usage](sovryn-onboard/usage.md)
+* [Custom Connectors](sovryn-onboard/custom-connectors.md)
+* [Custom UI](sovryn-onboard/custom-ui.md)
 
 ## sovryn.app
 
