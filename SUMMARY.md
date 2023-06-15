@@ -33,6 +33,10 @@
 * [Custom Connectors](sovryn-onboard/custom-connectors.md)
 * [Custom UI](sovryn-onboard/custom-ui.md)
 
+## Sovryn SDK
+
+* [Smart Router](sovryn-sdk/smart-router.md)
+
 ## sovryn.app
 
 * [Page 3](sovryn.app/page-3.md)
