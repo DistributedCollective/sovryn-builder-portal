@@ -35,7 +35,8 @@
 
 ## Sovryn SDK
 
-* [Smart Router](sovryn-sdk/smart-router.md)
+* [Smart Router](sovryn-sdk/smart-router/README.md)
+  * [Creating new Smart Route](sovryn-sdk/smart-router/creating-new-smart-route.md)
 
 ## sovryn.app
 
