@@ -17,12 +17,17 @@
   * [Accordion](ui-library/atoms/accordion.md)
   * [Badge](ui-library/atoms/badge.md)
   * [HealthBar](ui-library/atoms/healthbar.md)
+  * [Button](ui-library/atoms/button.md)
+  * [Checkbox](ui-library/atoms/checkbox.md)
+  * [DynamicValue](ui-library/atoms/dynamicvalue.md)
+  * [Heading](ui-library/atoms/heading.md)
+  * [ErrorBadge](ui-library/atoms/errorbadge.md)
   * [Icon](ui-library/atoms/icon.md)
   * [Input](ui-library/atoms/input.md)
-  * [Link](ui-library/atoms/link.md)
   * [Lottie](ui-library/atoms/lottie.md)
   * [Paragraph](ui-library/atoms/paragraph.md)
   * [Toggle](ui-library/atoms/toggle.md)
+  * [Link](ui-library/atoms/link.md)
 * [Working with Components](ui-library/working-with-components.md)
 
 ## sovryn-onboard
