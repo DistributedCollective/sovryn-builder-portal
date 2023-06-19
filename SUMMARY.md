@@ -88,5 +88,8 @@
 
 ## Other products
 
-* [The Graph](other-products/the-graph.md)
+* [The Graph](other-products/the-graph/README.md)
+  * [Overview](other-products/the-graph/overview.md)
+  * [Usage](other-products/the-graph/usage.md)
+  * [Advanced Usage](other-products/the-graph/advanced-usage.md)
 * [Backend Services](other-products/backend-services.md)
