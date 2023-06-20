@@ -95,7 +95,7 @@ const wallets = onboard.state.select('wallets').subscribe((wallets) => {
 
 To change the chain, you can call `onboard.setChain`. If wallet does not support changing chains, it will do nothing.
 
-setChain will only allow you to change to a chain that was passed to the core package when it was initialised.
+`setChain` will only allow you to change to a chain that was passed to the core package when it was initialized.
 
 ```ts
 import { onboard } from './onboard';
