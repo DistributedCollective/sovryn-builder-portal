@@ -1,6 +1,8 @@
 # Smart Router
 
-Smart router is a wrapper around the smart contracts that allows you to interact with the smart contracts for swapping tokens in a more convenient way.
+The Sovryn ecosystem provides various asset conversion options with distinct implementation details and fees. We have developed the Smart Router package to enable cost-effective conversions between specific asset pairs without the need for custom code for each source.
+
+It serves as a wrapper for smart contracts, streamlining interactions across all supported asset sources. The Smart Router intelligently searches for the optimal conversion rate among the supported sources and presents it to the user, enhancing convenience and usability.&#x20;
 
 ## Installation
 
@@ -55,3 +57,13 @@ const txData = await result.route.swap(xusdToken, sovToken, amount, {
 // Sign the transaction with the user wallet of your choosing and send it to the network
 const tx = await signAndSend(txData);
 ```
+
+## Links
+
+Source:
+
+{% embed url="https://github.com/DistributedCollective/sovryn-dapp/tree/main/packages/sdk" %}
+
+NPM Package:
+
+[https://www.npmjs.com/package/@sovryn/sdk](https://www.npmjs.com/package/@sovryn/sdk)
