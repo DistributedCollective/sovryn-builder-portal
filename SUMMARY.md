@@ -105,5 +105,6 @@
 * [The Graph](other-products/the-graph/README.md)
   * [Overview](other-products/the-graph/overview.md)
   * [Usage](other-products/the-graph/usage.md)
+  * [Sovryn Subgraphs](other-products/the-graph/sovryn-subgraphs.md)
   * [Advanced Usage](other-products/the-graph/advanced-usage.md)
 * [Backend Services](other-products/backend-services.md)

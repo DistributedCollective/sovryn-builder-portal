@@ -63,9 +63,3 @@ The following repositories contain code and documentation regarding Sovryn subgr
 Graph Protocol documentation: [https://thegraph.com/docs/en/](https://thegraph.com/docs/en/)
 
 GraphQL documentation: [https://graphql.org/learn/queries/](https://graphql.org/learn/queries/)
-
-Sovryn subgraph: [https://subgraph.sovryn.app/subgraphs/name/DistributedCollective/sovryn-subgraph/graphql](https://subgraph.sovryn.app/subgraphs/name/DistributedCollective/sovryn-subgraph/graphql)
-
-Sovryn subgraph repo: [https://github.com/DistributedCollective/Sovryn-subgraph/tree/development/src](https://github.com/DistributedCollective/Sovryn-subgraph/tree/development/src)
-
-Zero subgraph: [https://zero-subgraph.sovryn.app/subgraphs/name/DistributedCollective/zero-subgraph/graphql](https://zero-subgraph.sovryn.app/subgraphs/name/DistributedCollective/zero-subgraph/graphql)

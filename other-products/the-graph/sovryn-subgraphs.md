@@ -1,0 +1,10 @@
+# Sovryn Subgraphs
+
+Table containing list of subgraph repositories and deployments used in Sovryn.
+
+| Subgraph           | Github                                                                                                               | Deployed URL                                                                                                                                                                               |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Sovryn-subgraph    | [https://github.com/DistributedCollective/Sovryn-subgraph](https://github.com/DistributedCollective/Sovryn-subgraph) | [https://subgraph.sovryn.app/subgraphs/name/DistributedCollective/sovryn-subgraph/graphql](https://subgraph.sovryn.app/subgraphs/name/DistributedCollective/sovryn-subgraph/graphql)       |
+| Zero-subgraph      | [https://github.com/DistributedCollective/Zero-subgraph](https://github.com/DistributedCollective/Zero-subgraph)     | [https://zero-subgraph.sovryn.app/subgraphs/name/DistributedCollective/zero-subgraph/graphql](https://zero-subgraph.sovryn.app/subgraphs/name/DistributedCollective/zero-subgraph/graphql) |
+| Mynt-subgraph      | [https://github.com/DistributedCollective/Mynt-subgraph](https://github.com/DistributedCollective/Mynt-subgraph)     | [https://mynt-subgraph.sovryn.app/subgraphs/name/DistributedCollective/mynt-subgraph/graphql](https://mynt-subgraph.sovryn.app/subgraphs/name/DistributedCollective/mynt-subgraph/graphql) |
+| babelfish-subgraph | [https://github.com/BabelFishProtocol/babelfish-subgraph](https://github.com/BabelFishProtocol/babelfish-subgraph)   | [https://babelfish-subgraph.sovryn.app/subgraphs/name/babelfish/rsk-graph/graphql](https://babelfish-subgraph.sovryn.app/subgraphs/name/babelfish/rsk-graph/graphql)                       |
