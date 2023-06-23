@@ -14,6 +14,6 @@ The Toggle component is a user interface control designed for quickly switching 
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-toggle--basic&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-toggle--basic&viewMode=docs" %}
 
 ## Best Practices

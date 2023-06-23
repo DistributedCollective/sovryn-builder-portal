@@ -14,6 +14,6 @@ FormGroup component is the way to add structure to forms. Its purpose is to pair
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-formgroup--basic&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-formgroup--basic&viewMode=docs" %}
 
 ## Best Practices

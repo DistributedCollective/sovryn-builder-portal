@@ -16,6 +16,6 @@ Scale labels variations (future dev) We’ll add an option for labels inside the
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-badge--primary&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-badge--primary&viewMode=docs" %}
 
 ## Best Practices

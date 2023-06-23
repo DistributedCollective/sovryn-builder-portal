@@ -16,6 +16,6 @@ A dialog is triggered by a user’s action, appears on top of the main page cont
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-dialog--basic&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-dialog--basic&viewMode=docs" %}
 
 ## Best Practices

@@ -15,6 +15,6 @@ The message is the content of the badge in string.
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-errorbadge--default&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-errorbadge--default&viewMode=docs" %}
 
 ## Best Practices

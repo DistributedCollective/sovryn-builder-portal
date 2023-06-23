@@ -14,6 +14,6 @@ The Paragraph component is used to render paragraphs in a user interface. It all
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-paragraph--default&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-paragraph--default&viewMode=docs" %}
 
 ## Best Practices

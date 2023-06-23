@@ -14,7 +14,7 @@ Checkboxes are used for multiple choices, not for mutually exclusive choices. Ea
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-checkbox--base-checkbox&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-checkbox--base-checkbox&viewMode=docs" %}
 
 ## Best Practices
 
