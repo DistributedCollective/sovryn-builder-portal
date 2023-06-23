@@ -14,6 +14,6 @@ The header is the foundation for navigating and orienting your user to the UI.
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-header--basic&viewMode=docs" %}
+{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-header--basic&viewMode=docs" %}
 
 ## Best Practices

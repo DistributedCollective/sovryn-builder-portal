@@ -14,6 +14,6 @@ Pagination is used for splitting up content or data into several pages, with a c
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-pagination--basic&viewMode=docs" %}
+{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-pagination--basic&viewMode=docs" %}
 
 ## Best Practices

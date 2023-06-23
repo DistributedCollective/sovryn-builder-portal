@@ -10,6 +10,6 @@ Lottie is a powerful component used for rendering and controlling animations in 
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-lottie--single&viewMode=docs" %}
+{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-lottie--single&viewMode=docs" %}
 
 ## Best Practices

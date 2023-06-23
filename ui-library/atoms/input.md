@@ -14,6 +14,6 @@ Text inputs allow users to enter text data freely. The choice of text field shou
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-input--text-input&viewMode=docs" %}
+{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-input--text-input&viewMode=docs" %}
 
 ## Best Practices

@@ -14,6 +14,6 @@ The HealthBar component is an indicator of the user's collateral ratio. It has 2
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-healthbar--default&viewMode=docs" %}
+{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-healthbar--default&viewMode=docs" %}
 
 ## Best Practices
