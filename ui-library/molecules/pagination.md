@@ -6,7 +6,7 @@ description: Pagination component
 
 ## Description
 
-Pagination is used for splitting up content or data into several pages, with a control for navigating to the next or previous page.
+Pagination is used for splitting up content or data into several pages, with control for navigating to the next or previous page.
 
 ## Figma
 
@@ -14,6 +14,6 @@ Pagination is used for splitting up content or data into several pages, with a c
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-pagination--basic&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-pagination--basic&viewMode=docs" %}
 
 ## Best Practices

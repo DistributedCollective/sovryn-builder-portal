@@ -6,9 +6,9 @@ description: ErrorList component
 
 ## Description
 
-ErrorList component is used to inform users list of errors.&#x20;
+ErrorList component is used to inform users list of errors.
 
-Use weight to determine errors priorities.&#x20;
+Use weight to determine error priorities.
 
 ## Figma
 
@@ -16,6 +16,6 @@ Use weight to determine errors priorities.&#x20;
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-errorlist--default&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-errorlist--default&viewMode=docs" %}
 
 ## Best Practices

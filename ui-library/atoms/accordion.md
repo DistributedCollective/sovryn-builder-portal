@@ -8,7 +8,7 @@ description: Accordion component
 
 The accordion is used to expand (and collapse) a certain part of the page (usually the accordion is part of a form) which is hidden by default.
 
-The content of the accordion can be any type.&#x20;
+The content of the accordion can be any type.
 
 The expand collapse control label usually includes a summary of the accordion’s content.
 
@@ -18,6 +18,6 @@ The expand collapse control label usually includes a summary of the accordion’
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=atoms-accordion--default&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-accordion--default&viewMode=docs" %}
 
 ## Best Practices

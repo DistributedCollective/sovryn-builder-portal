@@ -6,7 +6,7 @@ description: FormGroup component
 
 ## Description
 
-FormGroup component is the way to add structure to forms. Its purpose is to pair form controls with a legend or label, and to provide help text and invalid/valid feedback text, as well as visual (color) contextual state feedback.
+FormGroup component is the way to add structure to forms. Its purpose is to pair form controls with a legend or label and to provide help text and invalid/valid feedback text, as well as visual (color) contextual state feedback.
 
 ## Figma <a href="#playground" id="playground"></a>
 
@@ -14,6 +14,6 @@ FormGroup component is the way to add structure to forms. Its purpose is to pair
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-formgroup--basic&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-formgroup--basic&viewMode=docs" %}
 
 ## Best Practices

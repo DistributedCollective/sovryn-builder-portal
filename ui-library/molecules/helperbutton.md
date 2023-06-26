@@ -6,7 +6,7 @@ description: HelperButton component
 
 ## Description
 
-An information icon with tooltip shown on hover. Used to show extra information.
+An information icon with a tooltip is shown on hover. Used to show extra information.
 
 ## Figma
 
@@ -14,6 +14,6 @@ An information icon with tooltip shown on hover. Used to show extra information.
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-helperbutton--basic&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-helperbutton--basic&viewMode=docs" %}
 
 ## Best Practices

@@ -10,10 +10,10 @@ Menu component is a list of links, menu items that you can use to navigate throu
 
 ## Figma
 
-{% embed url="https://www.figma.com/file/Ig2ZfR16Svs8In7yibukrO/Sovryn-UI-Library?node-id=2189:2214&t=HgUyAW2CDaFZCdwf-1&type=design" %}
+{% @figma/embed fileId="Ig2ZfR16Svs8In7yibukrO" nodeId="2189:2214" url="https://www.figma.com/file/Ig2ZfR16Svs8In7yibukrO/Sovryn-UI-Library?node-id=2189:2214&t=HgUyAW2CDaFZCdwf-1&type=design" %}
 
 ## Usage Examples (Storybook)
 
-{% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-menu--menu&viewMode=docs" %}
+{% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-menu--menu&viewMode=docs" %}
 
 ## Best Practices
