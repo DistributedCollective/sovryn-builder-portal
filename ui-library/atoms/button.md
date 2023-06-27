@@ -1,7 +1,3 @@
----
-description: Button component
----
-
 # Button
 
 ## Description
@@ -16,4 +12,3 @@ Buttons are clickable elements that are used to trigger actions. They communicat
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-button--default&viewMode=docs" %}
 
-## Best Practices

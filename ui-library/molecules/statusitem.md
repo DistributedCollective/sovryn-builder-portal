@@ -1,7 +1,3 @@
----
-description: StatusItem component
----
-
 # StatusItem
 
 ## Description
@@ -16,4 +12,3 @@ Status item displays a short, important message in a way that attracts the user'
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-statusitem--default&viewMode=docs" %}
 
-## Best Practices

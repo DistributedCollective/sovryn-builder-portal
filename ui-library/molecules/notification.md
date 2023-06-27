@@ -1,7 +1,3 @@
----
-description: Notification component
----
-
 # Notification
 
 ## Description
@@ -16,4 +12,3 @@ Notifications are messages that communicate information to the user
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-notification--basic&viewMode=docs" %}
 
-## Best Practices

@@ -1,7 +1,3 @@
----
-description: SimpleTable component
----
-
 # SimpleTable
 
 ## Description
@@ -16,4 +12,3 @@ Simple tables display information in a way that's easy to scan, so that users ca
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-simpletable--primary&viewMode=docs" %}
 
-## Best Practices

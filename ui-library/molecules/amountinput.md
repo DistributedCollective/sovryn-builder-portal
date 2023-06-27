@@ -1,7 +1,3 @@
----
-description: AmountInput component
----
-
 # AmountInput
 
 ## Description
@@ -16,4 +12,3 @@ Amount inputs are similar to text inputs, but are used to specify only a numeric
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-amountinput--basic&viewMode=docs" %}
 
-## Best Practices

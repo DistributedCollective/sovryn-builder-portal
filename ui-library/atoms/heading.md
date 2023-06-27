@@ -1,7 +1,3 @@
----
-description: Heading component
----
-
 # Heading
 
 ## Description
@@ -16,4 +12,3 @@ The Heading component defines six levels of title elements from h1 to h3 that ar
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-heading--default&viewMode=docs" %}
 
-## Best Practices

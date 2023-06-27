@@ -16,4 +16,3 @@ Tooltips display informative text when users hover over, focus on, or tap an ele
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-tooltip--basic&viewMode=docs" %}
 
-## Best Practices

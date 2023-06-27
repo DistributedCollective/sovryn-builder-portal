@@ -1,7 +1,3 @@
----
-description: TransactionId component
----
-
 # TransactionId
 
 ## Description
@@ -16,4 +12,3 @@ Transaction id component is used for displaying transaction hash with a tooltip 
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-transactionid--transaction-id&viewMode=docs" %}
 
-## Best Practices

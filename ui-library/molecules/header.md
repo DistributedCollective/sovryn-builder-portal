@@ -1,7 +1,3 @@
----
-description: Header component
----
-
 # Header
 
 ## Description
@@ -16,4 +12,3 @@ The header is the foundation for navigating and orienting your user to the UI.
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-header--basic&viewMode=docs" %}
 
-## Best Practices

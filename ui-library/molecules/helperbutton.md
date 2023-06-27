@@ -1,7 +1,3 @@
----
-description: HelperButton component
----
-
 # HelperButton
 
 ## Description
@@ -16,4 +12,3 @@ An information icon with a tooltip is shown on hover. Used to show extra informa
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-helperbutton--basic&viewMode=docs" %}
 
-## Best Practices

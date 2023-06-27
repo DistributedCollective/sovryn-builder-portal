@@ -1,7 +1,3 @@
----
-description: Link component
----
-
 # Link
 
 ## Description
@@ -16,4 +12,4 @@ Links are used as navigational elements. They may appear on their own, within a 
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-link--primary&viewMode=docs" %}
 
-## Best Practices
+##

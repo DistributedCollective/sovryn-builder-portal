@@ -1,7 +1,3 @@
----
-description: Dropdown component
----
-
 # Dropdown
 
 ## Description
@@ -16,4 +12,3 @@ Use the dropdown component when additional options are available to the user but
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-dropdown--basic&viewMode=docs" %}
 
-## Best Practices

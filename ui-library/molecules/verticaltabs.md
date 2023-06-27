@@ -1,7 +1,3 @@
----
-description: VerticalTabs component
----
-
 # VerticalTabs
 
 ## Description
@@ -16,4 +12,3 @@ A list of vertical tabs with a selector. Is mainly used in Sovryn onboarding pac
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-verticaltabs--basic&viewMode=docs" %}
 
-## Best Practices

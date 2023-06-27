@@ -1,7 +1,3 @@
----
-description: Table component
----
-
 # Table
 
 ## Description
@@ -16,4 +12,3 @@ Tables display information in a way that's easy to scan, so that users can look 
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-table--basic&viewMode=docs" %}
 
-## Best Practices

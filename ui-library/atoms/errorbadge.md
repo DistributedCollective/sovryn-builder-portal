@@ -1,7 +1,3 @@
----
-description: ErrorBadge component
----
-
 # ErrorBadge
 
 ## Description
@@ -17,4 +13,3 @@ The message is the content of the badge in string.
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-errorbadge--default&viewMode=docs" %}
 
-## Best Practices

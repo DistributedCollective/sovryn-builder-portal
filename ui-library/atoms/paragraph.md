@@ -1,7 +1,3 @@
----
-description: Paragraph component
----
-
 # Paragraph
 
 ## Description
@@ -16,4 +12,4 @@ The Paragraph component is used to render paragraphs in a user interface. It all
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-paragraph--default&viewMode=docs" %}
 
-## Best Practices
+##

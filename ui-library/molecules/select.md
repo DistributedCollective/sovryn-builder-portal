@@ -1,7 +1,3 @@
----
-description: Select component
----
-
 # Select
 
 ## Description
@@ -16,4 +12,4 @@ Select components are used for collecting user provided information from a list 
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-select--basic&viewMode=docs" %}
 
-## Best Practices
+&#x20;

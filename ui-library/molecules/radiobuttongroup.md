@@ -1,7 +1,3 @@
----
-description: RadioButtonGroup component
----
-
 # RadioButtonGroup
 
 ## Description
@@ -16,4 +12,3 @@ The Radio Button Group allows the user to select one option from a set. Radio bu
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-radiobuttongroup--basic&viewMode=docs" %}
 
-## Best Practices

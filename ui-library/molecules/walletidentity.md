@@ -1,12 +1,8 @@
----
-description: WalletIdentity component
----
-
 # WalletIdentity
 
 ## Description
 
-Wallet Identity is a component to show connected user address and the option to copy or disconnect.
+Wallet Identity is a component to show the connected user address and the option to copy or disconnect.
 
 ## Figma
 
@@ -16,4 +12,3 @@ Wallet Identity is a component to show connected user address and the option to 
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-walletidentity--wallet-identity&viewMode=docs" %}
 
-## Best Practices

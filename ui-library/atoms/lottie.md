@@ -1,7 +1,3 @@
----
-description: Lottie component
----
-
 # Lottie
 
 ## Description
@@ -12,4 +8,3 @@ Lottie is a powerful component used for rendering and controlling animations in 
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-lottie--single&viewMode=docs" %}
 
-## Best Practices

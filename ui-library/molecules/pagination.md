@@ -1,7 +1,3 @@
----
-description: Pagination component
----
-
 # Pagination
 
 ## Description
@@ -16,4 +12,3 @@ Pagination is used for splitting up content or data into several pages, with con
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-pagination--basic&viewMode=docs" %}
 
-## Best Practices

@@ -1,8 +1,4 @@
----
-description: Work with Components
----
-
-# Components
+# Working with Components
 
 ## Component Development Guide
 

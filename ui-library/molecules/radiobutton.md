@@ -1,7 +1,3 @@
----
-description: RadioButton component
----
-
 # RadioButton
 
 ## Description
@@ -16,4 +12,3 @@ The radio component can be used to allow the user to choose a single option from
 
 {% embed url="https://sovryn-storybook.netlify.app/iframe.html?args=&id=molecule-radiobutton--basic&viewMode=docs" %}
 
-## Best Practices

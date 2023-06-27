@@ -1,7 +1,3 @@
----
-description: Accordion component
----
-
 # Accordion
 
 ## Description
@@ -20,4 +16,4 @@ The expand collapse control label usually includes a summary of the accordion’
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-accordion--default&viewMode=docs" %}
 
-## Best Practices
+&#x20;

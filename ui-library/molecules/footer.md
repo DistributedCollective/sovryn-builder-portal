@@ -1,7 +1,3 @@
----
-description: Footer component
----
-
 # Footer
 
 ## Description
@@ -16,4 +12,3 @@ Footer component is used for displaying general information that a user might wa
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-footer--basic&viewMode=docs" %}
 
-## Best Practices

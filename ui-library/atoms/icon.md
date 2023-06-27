@@ -1,7 +1,3 @@
----
-description: Icon component
----
-
 # Icon
 
 ## Description
@@ -16,4 +12,3 @@ Icons are visual symbols used to represent ideas, objects, or actions. They comm
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=atoms-icon--basic&viewMode=docs" %}
 
-## Best Practices

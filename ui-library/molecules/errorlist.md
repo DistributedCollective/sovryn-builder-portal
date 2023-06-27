@@ -1,7 +1,3 @@
----
-description: ErrorList component
----
-
 # ErrorList
 
 ## Description
@@ -18,4 +14,3 @@ Use weight to determine error priorities.
 
 {% embed url="https://main--64805a328deba43ac7b6d3c1.chromatic.com/iframe.html?args=&id=molecule-errorlist--default&viewMode=docs" %}
 
-## Best Practices

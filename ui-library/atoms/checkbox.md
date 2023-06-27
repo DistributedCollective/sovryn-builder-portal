@@ -1,7 +1,3 @@
----
-description: Checkbox component
----
-
 # Checkbox
 
 ## Description
