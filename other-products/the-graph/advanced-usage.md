@@ -16,7 +16,7 @@ To sort results, you can use the orderBy and orderDirection properties like this
 
 ```
 
-This will return all users order by the date they were created, in descending order. orderDirection will default to asc (ascending) if it is not included as a property.
+This will return all users ordered by the date they were created, in descending order. orderDirection will default to asc (ascending) if it is not included as a property.
 
 You can only order by strings and numbers, not by nested entities, arrays or other data types.
 
@@ -119,7 +119,7 @@ For example, let’s look at the dollar price of WRBTC at two different blocks. 
 
 The result we see is:
 
-<img src="https://lh5.googleusercontent.com/lj1FguVNBLIUid1x49Y148IXs9WWQnsSwrQnmq-NtO3kNiLQt-YjFPAO0vQxCkTZYZ_Mo9-2O5mzIYogXFlBjjRwCCINeo1smSO63PQvEzFRledc-kKi_3Sx7gn81fT-xw1mxrKgV-L9Yf7XxfrEzwA" alt="" data-size="original">
+<figure><img src="https://lh5.googleusercontent.com/lj1FguVNBLIUid1x49Y148IXs9WWQnsSwrQnmq-NtO3kNiLQt-YjFPAO0vQxCkTZYZ_Mo9-2O5mzIYogXFlBjjRwCCINeo1smSO63PQvEzFRledc-kKi_3Sx7gn81fT-xw1mxrKgV-L9Yf7XxfrEzwA" alt=""><figcaption></figcaption></figure>
 
 We could then compare this to the WRBTC price at another block, for example block 4000000 (2022/01/12 20:40:28):
 
@@ -138,6 +138,6 @@ We could then compare this to the WRBTC price at another block, for example bloc
 
 This is the result:
 
-![](https://lh6.googleusercontent.com/mWvP4342\_NAPGZotZyzdem4NenHWcn73i8g2nqLe5xfyBRCDgz8stBCnNgAO5TPW\_U8vy2xY7PAiP0OMq0seoo7w6uI77oowQz4YEg1Ilx4UybptEHnTl2VC3e9FWvtV-ZLi9H-\_1TksB-b8xg7RFOE)
+<figure><img src="https://lh6.googleusercontent.com/mWvP4342_NAPGZotZyzdem4NenHWcn73i8g2nqLe5xfyBRCDgz8stBCnNgAO5TPW_U8vy2xY7PAiP0OMq0seoo7w6uI77oowQz4YEg1Ilx4UybptEHnTl2VC3e9FWvtV-ZLi9H-_1TksB-b8xg7RFOE" alt=""><figcaption></figcaption></figure>
 
 From this, we can see the price change between these two points for this token.

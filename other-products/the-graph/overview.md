@@ -2,13 +2,13 @@
 
 ## How we are using The Graph at Sovryn <a href="#how-we-are-using-the-graph-at-sovryn" id="how-we-are-using-the-graph-at-sovryn"></a>
 
-The Graph solves the problems outlined above with a decentralized protocol that indexes and enables the performant and efficient querying of blockchain data. These APIs (indexed "subgraphs") can then be queried with a standard GraphQL API. Today, there is a hosted/self-hosted service as well as a decentralized protocol with the same capabilities. All of these are backed by the open source implementation of [Graph Node](https://github.com/graphprotocol/graph-node). This means that no matter which method is used, the queries used to access the data will never need to change.
+The Graph solves the problems outlined above with a decentralized protocol that indexes and enables the performant and efficient querying of blockchain data. These APIs (indexed "subgraphs") can then be queried with a standard GraphQL API. Today, there is a hosted/self-hosted service as well as a decentralized protocol with the same capabilities. All of these are backed by the open-source implementation of [Graph Node](https://github.com/graphprotocol/graph-node). This means that no matter which method is used, the queries used to access the data will never need to change.
 
-When we first launched the Sovryn dapp, we built our own indexing server that listens to, processes and stores transactions, and then an API on top of this. However, this quickly became resource and time consuming to maintain and scale to the levels we require - for this reason we have migrated any of this logic from the original service to our new Sovryn subgraph.
+When we first launched the Sovryn dapp, we built our own indexing server that listens to, processes and stores transactions, and then an API on top of this. However, this quickly became resource and time-consuming to maintain and scale to the levels we require - for this reason we have migrated any of this logic from the original service to our new Sovryn subgraph.
 
 As mentioned above, the Graph Protocol offers two different methods for capturing and exposing data:
 
-1. Self Hosted/Hosted Subgraph
+1. Self-Hosted/Hosted Subgraph
 2. Decentralized Network Subgraph (hosted on the network itself)
 
 Currently The Graph does not support Decentralized Network Subgraphs for the RSK network so we are using our own hosted subgraph - in the future when support for this is added, the transition can easily be made by pointing our dapp frontend to the Decentralized Network Subgraph, without needing to rewrite queries for additional optimizations. In addition, as the queries are written in the same GraphQL syntax regardless of what blockchain is used, this flexibility ensures a smooth migration with minimal changes if Sovryn were ever to branch out to other EVM compatible chains.
@@ -39,7 +39,7 @@ The flow follows these steps:
 
 While The Graph is the ideal framework for indexing blockchain data, it does have certain limitations.
 
-﻿One of these is that it can only react to blockchain data, but it cannot run scheduled jobs. Why is this an issue? Say, for example, you want to know what the 24 hour price change is of a token, and you want this data to be updated every 30 seconds. The Graph cannot do this kind of processing at scale. As an aside, the graph can respond to individual blocks instead of events, but this leads to much slower syncing times.
+﻿One of these is that it can only react to blockchain data, but it cannot run scheduled jobs. Why is this an issue? Say, for example, you want to know what the 24-hour price change is of a token, and you want this data to be updated every 30 seconds. The Graph cannot do this kind of processing at scale. As an aside, the graph can respond to individual blocks instead of events, but this leads to much slower syncing times.
 
 ﻿Our solution has been to build a suite of microservices that use data from The Graph (and sometimes directly from the contracts) to handle these types of cases. Our suite of microservices and API endpoints use The Graph as their source of truth, add some additional logic/processing, and serve this data as an API in the format that the Sovryn dapp (or other products/parties) require.
 
