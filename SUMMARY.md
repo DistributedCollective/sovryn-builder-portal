@@ -73,8 +73,11 @@
 
 ## sovryn.app
 
-* [Page 3](sovryn.app/page-3.md)
-* [Page 1](sovryn.app/page-1.md)
+* [Overview](sovryn.app/overview.md)
+* [Sovryn UI Library Usage](sovryn.app/sovryn-ui-library-usage.md)
+* [Graph Usage](sovryn.app/graph-usage.md)
+* [Links](sovryn.app/links.md)
+* [Contribution](sovryn.app/contribution.md)
 
 ## Smart Contracts
 
