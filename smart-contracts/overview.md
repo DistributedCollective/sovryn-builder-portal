@@ -6,7 +6,7 @@ description: >-
 
 # Overview
 
-<figure><img src="../.gitbook/assets/overview.png" alt=""><figcaption><p>The Sovryn Products and how they are connected.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/overview.drawio.png" alt=""><figcaption></figcaption></figure>
 
 The Sovryn product suite consists of following interconnected components:
 
