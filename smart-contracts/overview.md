@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page explains the different protocols and how they are connected on a
-  high level.
+description: The Sovryn product suite consists of different interconnected protocols.
 ---
 
 # Overview
