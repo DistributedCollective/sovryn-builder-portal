@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Homepage](README.md)
+* [Sovryn Builder Portal](README.md)
 
 ## Design System
 
