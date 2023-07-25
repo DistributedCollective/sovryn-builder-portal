@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/632ae4257380e20a06bbda70_Governance_Secondscreen_Desktop.jpg
-coverY: 20
+cover: .gitbook/assets/BuilderPortal_Header_2.png
+coverY: 0
 layout:
   cover:
     visible: true
