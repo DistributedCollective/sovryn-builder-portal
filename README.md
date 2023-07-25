@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/BuilderPortal_Header_1.png
+cover: .gitbook/assets/BuilderPortal_Header_2.png
 coverY: 0
 layout:
   cover:
