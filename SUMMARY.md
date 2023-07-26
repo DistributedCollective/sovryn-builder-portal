@@ -5,9 +5,9 @@
 
 ## Design System
 
-* [Design Principles](design-system/design-principles.md)
+* [Design principles](design-system/design-principles.md)
 * [Structure](design-system/structure.md)
-* [Usage at Sovryn](design-system/usage-at-sovryn.md)
+* [Usage by Sovryn](design-system/usage-at-sovryn.md)
 
 ## UI Library
 
@@ -80,7 +80,7 @@
 
 * [Overview](sovryn.app/overview.md)
 * [Sovryn UI Library Usage](sovryn.app/sovryn-ui-library-usage.md)
-* [Graph Usage](sovryn.app/graph-usage.md)
+* [The Graph Usage](sovryn.app/the-graph-usage.md)
 * [Links](sovryn.app/links.md)
 * [Contribution](sovryn.app/contribution.md)
 

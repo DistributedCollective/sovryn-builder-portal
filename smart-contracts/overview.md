@@ -8,11 +8,11 @@ description: The Sovryn product suite consists of different interconnected proto
 
 The Sovryn product suite consists of following interconnected components:
 
-* Bitocracy: Staking & Voting
-* Loan tokens: Lending, Borrowing, Margin Trading
+* Bitocracy: Staking and voting
+* Loan tokens: Lending, borrowing, margin trading
 * Sovryn Protocol: Open, close and maintain positions
 * Zero: Interest-free bitcoin backed loans
 * Mynt/DLLR: Bitcoin backed stablecoin aggregator
 * AMM: Swaps
-* Liquidity Mining: Yield Farming
+* Liquidity Mining: Yield farming
 
