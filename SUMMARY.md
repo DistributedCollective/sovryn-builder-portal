@@ -1,13 +1,13 @@
 # Table of contents
 
 * [Sovryn Builder Portal](README.md)
+  * [Contribution](readme/contribution.md)
 
 ## Design System
 
 * [Design Principles](design-system/design-principles.md)
 * [Structure](design-system/structure.md)
 * [Usage at Sovryn](design-system/usage-at-sovryn.md)
-* [Contribution](design-system/contribution.md)
 
 ## UI Library
 
@@ -57,19 +57,24 @@
   * [WalletContainer](ui-library/molecules/walletcontainer.md)
   * [WalletIdentity](ui-library/molecules/walletidentity.md)
 * [Working with Components](ui-library/working-with-components.md)
-
-## sovryn-onboard
-
-* [Overview](sovryn-onboard/overview.md)
-* [Installation](sovryn-onboard/installation.md)
-* [Usage](sovryn-onboard/usage.md)
-* [Custom Connectors](sovryn-onboard/custom-connectors.md)
-* [Custom UI](sovryn-onboard/custom-ui.md)
+* [Links](ui-library/links.md)
+* [Contribution](ui-library/contribution.md)
 
 ## Sovryn SDK
 
 * [Smart Router](sovryn-sdk/smart-router/README.md)
   * [Creating new Swap Route](sovryn-sdk/smart-router/creating-new-swap-route.md)
+* [Sovryn Onboard](sovryn-sdk/sovryn-onboard/README.md)
+  * [Installation](sovryn-sdk/sovryn-onboard/installation.md)
+  * [Usage](sovryn-sdk/sovryn-onboard/usage.md)
+  * [Custom Connectors](sovryn-sdk/sovryn-onboard/custom-connectors.md)
+  * [Custom UI](sovryn-sdk/sovryn-onboard/custom-ui.md)
+  * [Contribution](sovryn-sdk/sovryn-onboard/contribution.md)
+* [The Graph](sovryn-sdk/the-graph/README.md)
+  * [Overview](sovryn-sdk/the-graph/overview.md)
+  * [Usage](sovryn-sdk/the-graph/usage.md)
+  * [Sovryn Subgraphs](sovryn-sdk/the-graph/sovryn-subgraphs.md)
+  * [Advanced Usage](sovryn-sdk/the-graph/advanced-usage.md)
 
 ## sovryn.app
 
@@ -121,17 +126,3 @@
   * [SIPS](smart-contracts/bitocracy/sips.md)
   * [Voting](smart-contracts/bitocracy/voting.md)
   * [Fee Sharing](smart-contracts/bitocracy/fee-sharing.md)
-
-## Bridges
-
-* [FastBTC](bridges/fastbtc.md)
-* [Token Bridge](bridges/token-bridge.md)
-
-## Other products
-
-* [The Graph](other-products/the-graph/README.md)
-  * [Overview](other-products/the-graph/overview.md)
-  * [Usage](other-products/the-graph/usage.md)
-  * [Sovryn Subgraphs](other-products/the-graph/sovryn-subgraphs.md)
-  * [Advanced Usage](other-products/the-graph/advanced-usage.md)
-* [Backend Services](other-products/backend-services.md)

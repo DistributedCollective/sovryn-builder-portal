@@ -14,13 +14,12 @@ The Sovryn UI Library is a comprehensive collection of reusable components and s
 
 ### Documentation
 
-The Sovryn UI Library provides comprehensive documentation to guide developers in using its features and components effectively. The documentation is available on the Sovryn Developer Portal
+The Sovryn UI Library provides comprehensive documentation to guide developers in using its features and components effectively. This features an interactive Storybook, which provides a live showcase of all the available components. You can explore the Storybook to see the components in action, experiment with their props and variations, and get a visual understanding of how they can be used in your applications.
 
-### Examples
-
-The Sovryn UI Library documentation features an interactive Storybook, which provides a live showcase of all the available components. You can explore the Storybook to see the components in action, experiment with their props and variations, and get a visual understanding of how they can be used in your applications.
+Useful links can be found [here](links.md).
 
 ### Support
 
-If you encounter any issues, have questions, or need assistance while using the Sovryn UI Library, please reach out to our support team or refer to the community resources available on the Sovryn Developer Portal.
+If you encounter any issues, have questions, or need assistance while using the Sovryn UI Library, please reach out to our support team via Discord or refer to the community resources available on the Sovryn Builder Portal.
 
+###

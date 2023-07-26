@@ -1,7 +1,3 @@
----
-description: Tabs component
----
-
 # Tabs
 
 ## Description

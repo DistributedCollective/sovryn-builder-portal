@@ -20,3 +20,4 @@ We also recommend installing the React UI component which provides a simple flow
 # install React UI component
 yarn add @sovryn/onboard-react
 ```
+

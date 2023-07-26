@@ -19,8 +19,8 @@ layout:
 
 # Sovryn Builder Portal
 
-**Welcome to the Sovryn Builder Portal!**\
-\
+### **Welcome to the Sovryn Builder Portal!**
+
 We created this resource to help builders in the Sovryn community find the tools they need to integrate with the Sovryn protocol, create new applications with our design system and UI library, and contribute to Sovryn open-source projects.\
 \
 Use the tools documented here to build:
@@ -32,8 +32,9 @@ Use the tools documented here to build:
 
 ... and more exciting products and projects we haven't thought of yet.
 
-Take a look around! Then if you still have questions, or just want to talk shop with other Sovryn builders, we invite you to join the [#integrations channel](https://discord.gg/sovryn) on the Sovryn Discord server.\
-\
-**About Sovryn**\
-\
+Take a look around! Then if you still have questions, or just want to talk shop with other Sovryn builders, we invite you to join the [#integrations channel](https://discord.gg/sovryn) on the Sovryn Discord server.
+
+### **About Sovryn**
+
 Sovryn is open-source technology for sovereign individuals. We are bringing smart contracts to bitcoin to create sound finance, truly free markets, and a society based around ownership and freedom. Learn more at [sovryn.com](https://sovryn.com)
+

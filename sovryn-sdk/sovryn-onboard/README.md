@@ -1,4 +1,4 @@
-# Overview
+# Sovryn Onboard
 
 Sovryn-onboard is a wallet connection library that when integrated into a Dapp, allows users to connect their Web3 wallets to sign messages and transactions. It's modular so each part can be easily changed, with a split between core and connector packages.
 
@@ -25,3 +25,4 @@ At least one connector is required to use sovryn onboard
 | `@sovryn/onboard-walletconnect` | connector for WalletConnect          |
 | `@sovryn/onboard-ledger`        | connector for Ledger Hardware wallet |
 | `@sovryn/onboard-trezor`        | connector for Trezor Hardware wallet |
+

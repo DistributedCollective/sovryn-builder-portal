@@ -1,7 +1,3 @@
----
-description: Tooltip component
----
-
 # Tooltip
 
 ## Description
