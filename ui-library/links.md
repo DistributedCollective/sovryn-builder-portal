@@ -10,4 +10,4 @@ Storybook (rebuilds automatically from the `develop` branch in our Github reposi
 
 UI Library Figma:
 
-[https://www.figma.com/file/Ig2ZfR16Svs8In7yibukrO/Sovryn-UI-Library?type=design\&node-id=1050-1533\&mode=design](https://www.figma.com/file/Ig2ZfR16Svs8In7yibukrO/Sovryn-UI-Library?type=design\&node-id=1050-1533\&mode=design)
+{% embed url="https://www.figma.com/community/file/1276181927069079113/UI-Library-by-Sovryn" %}
