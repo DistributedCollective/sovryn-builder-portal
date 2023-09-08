@@ -32,7 +32,7 @@ Use the tools documented here to build:
 
 ... and more exciting products and projects we haven't thought of yet.
 
-Take a look around! Then if you still have questions, or just want to talk shop with other Sovryn builders, we invite you to join the [#integrations channel](https://discord.gg/sovryn) on the Sovryn Discord server.
+Take a look around! Then if you still have questions, or just want to talk shop with other Sovryn builders, we invite you to join the [#builders channel](https://discord.gg/sovryn) on the Sovryn Discord server.
 
 ### **About Sovryn**
 
