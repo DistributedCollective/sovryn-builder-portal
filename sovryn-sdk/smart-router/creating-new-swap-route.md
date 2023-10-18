@@ -1,6 +1,6 @@
-# Creating new Swap Route
+# Creating a New Swap Route
 
-A Swap Route is a function which accepts a single argument of ethers provider and returns object of `SwapRoute` type.
+A swap route is a function which accepts a single argument of ethers provider and returns object of `SwapRoute` type.
 
 ```typescript
 // smart route type
@@ -11,11 +11,11 @@ type SwapRouteFunction = (provider: providers.Provider) => SwapRoute;
 
 ### name: string
 
-Define a name of your swap route.
+Define a name for your swap route.
 
 ### pairs(): Promise\<SwapPairs>
 
-Map of all supported tokens. Give an entry token as a key and all possible destination tokens as it's value in array. Tokens must be defined as lowercased contract addresses. It's expected to define RBTC token as zero address.
+Map of all supported tokens. Give an entry token as a key and all possible destination tokens as its value in array. Tokens must be defined as lowercased contract addresses. It's expected to define RBTC token as zero address.
 
 ```typescript
 async pairs() {
@@ -37,7 +37,7 @@ In the example above, the swap route supports swaps from RBTC to SOV and XUSD, b
 
 ### quote(entry: string, destination: string, amount: BigNumberish, options?: Partial\<Options>, overrides?: Partial\<TransactionRequest>): Promise\<BigNumber>
 
-Use entry, destination and amount to calculate quote amount and return it as a BigNumber.
+Use entry, destination, and amount to calculate quote amount and return it as a BigNumber.
 
 ### swap(entry: string, destination: string, amount: BigNumberish, options?: Partial\<Options>, overrides?: Partial\<TransactionRequest>): Promise\<TransactionRequest>
 

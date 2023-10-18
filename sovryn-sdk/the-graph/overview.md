@@ -11,7 +11,7 @@ As mentioned above, the Graph Protocol offers two different methods for capturin
 1. Self-Hosted/Hosted Subgraph
 2. Decentralized Network Subgraph (hosted on the network itself)
 
-Currently The Graph does not support Decentralized Network Subgraphs for the RSK network so we are using our own hosted subgraph - in the future when support for this is added, the transition can easily be made by pointing our dapp frontend to the Decentralized Network Subgraph, without needing to rewrite queries for additional optimizations. In addition, as the queries are written in the same GraphQL syntax regardless of what blockchain is used, this flexibility ensures a smooth migration with minimal changes if Sovryn were ever to branch out to other EVM compatible chains.
+Currently The Graph does not support Decentralized Network Subgraphs for the Rootstock network so we are using our own hosted subgraph - in the future when support for this is added, the transition can easily be made by pointing our dapp frontend to the Decentralized Network Subgraph, without needing to rewrite queries for additional optimizations. In addition, as the queries are written in the same GraphQL syntax regardless of what blockchain is used, this flexibility ensures a smooth migration with minimal changes if Sovryn were ever to branch out to other EVM compatible chains.
 
 Below we have a high level view of how the information flows through the Graph Network to the Sovryn dapp:
 
@@ -19,11 +19,11 @@ Below we have a high level view of how the information flows through the Graph N
 
 The flow follows these steps:
 
-1. Sovryn adds data to the RSK blockchain through a transaction on a smart contract.
+1. Sovryn adds data to the Rootstock blockchain through a transaction on a smart contract.
 2. The smart contract emits one or more events while processing the transaction.
-3. Graph Node continually scans RSK for new blocks and the data they may contain for our subgraph.
-4. Graph Node finds RSK events for your subgraph in these blocks and runs the mapping handlers you provided. The mapping is a WASM module that creates or updates the data entities that Graph Node stores in response to RSK events.
-5. The decentralized application queries the Graph Node for data indexed from the blockchain, using the node's GraphQL endpoint. The Graph Node in turn translates the GraphQL queries into queries for its underlying data store in order to fetch this data, making use of the store's indexing capabilities. The decentralized application displays this data in a rich UI for end-users, which they use to issue new transactions on RSK. The cycle repeats.
+3. Graph Node continually scans Rootstock for new blocks and the data they may contain for our subgraph.
+4. Graph Node finds Rootstock events for your subgraph in these blocks and runs the mapping handlers you provided. The mapping is a WASM module that creates or updates the data entities that Graph Node stores in response to Rootstock events.
+5. The decentralized application queries the Graph Node for data indexed from the blockchain, using the node's GraphQL endpoint. The Graph Node in turn translates the GraphQL queries into queries for its underlying data store in order to fetch this data, making use of the store's indexing capabilities. The decentralized application displays this data in a rich UI for end-users, which they use to issue new transactions on Rootstock. The cycle repeats.
 
 ## Benefits for Sovryn <a href="#benefits-for-sovryn" id="benefits-for-sovryn"></a>
 
@@ -39,7 +39,7 @@ The flow follows these steps:
 
 While The Graph is the ideal framework for indexing blockchain data, it does have certain limitations.
 
-﻿One of these is that it can only react to blockchain data, but it cannot run scheduled jobs. Why is this an issue? Say, for example, you want to know what the 24-hour price change is of a token, and you want this data to be updated every 30 seconds. The Graph cannot do this kind of processing at scale. As an aside, the graph can respond to individual blocks instead of events, but this leads to much slower syncing times.
+﻿One of these is that it can only react to blockchain data, but it cannot run scheduled jobs. Why is this an issue? Say, for example, you want to know what the 24-hour price change is of a token, and you want this data to be updated every 30 seconds. The Graph cannot do this kind of processing at scale. As an aside, The Graph can respond to individual blocks instead of events, but this leads to much slower syncing times.
 
 ﻿Our solution has been to build a suite of microservices that use data from The Graph (and sometimes directly from the contracts) to handle these types of cases. Our suite of microservices and API endpoints use The Graph as their source of truth, add some additional logic/processing, and serve this data as an API in the format that the Sovryn dapp (or other products/parties) require.
 

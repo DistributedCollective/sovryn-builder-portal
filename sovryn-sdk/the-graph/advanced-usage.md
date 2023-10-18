@@ -98,7 +98,7 @@ To query a single entity, you will need to pass in an ID like this:
 
 ### Querying a past block
 
-A special property of the Graph implementation of GraphQL is that it allows you to query the state of your subgraph at any past block, similar to how you can query the state of the blockchain at any point in the past.
+A special property of The Graph's implementation of GraphQL is that it allows you to query the state of your subgraph at any past block, similar to how you can query the state of the blockchain at any point in the past.
 
 To do this, we just need to pass in a block number or block hash as a query parameter, and the subgraph will return the results of the query as they were at that block.
 

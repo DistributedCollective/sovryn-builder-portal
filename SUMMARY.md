@@ -63,7 +63,7 @@
 ## Sovryn SDK
 
 * [Smart Router](sovryn-sdk/smart-router/README.md)
-  * [Creating new Swap Route](sovryn-sdk/smart-router/creating-new-swap-route.md)
+  * [Creating a New Swap Route](sovryn-sdk/smart-router/creating-new-swap-route.md)
 * [Sovryn Onboard](sovryn-sdk/sovryn-onboard/README.md)
   * [Installation](sovryn-sdk/sovryn-onboard/installation.md)
   * [Usage](sovryn-sdk/sovryn-onboard/usage.md)

@@ -1,8 +1,8 @@
 # Sovryn Onboard
 
-Sovryn-onboard is a wallet connection library that when integrated into a Dapp, allows users to connect their Web3 wallets to sign messages and transactions. It's modular so each part can be easily changed, with a split between core and connector packages.
+Sovryn-onboard is a wallet connection library that when integrated into a dapp, allows users to connect their Web3 wallets to sign messages and transactions. It's modular so each part can be easily changed, with a split between core and connector packages.
 
-Modules are forked from and therefore compatible with [web3-onboard](https://github.com/blocknative/web3-onboard), most changes are to add additional features required by Sovryn.
+Modules are forked from and therefore compatible with [web3-onboard](https://github.com/blocknative/web3-onboard). Most changes are to add additional features required by Sovryn.
 
 Core packages are required for library to work seamlessly and connectors are optional.
 

@@ -20,7 +20,7 @@ function claimReward(address _poolToken, address _user) external nonpayable
 
 ## For all pool tokens
 
-This function claims the rewards for all pool tokens, the user has deposited.
+This function claims the rewards for all pool tokens that the user has deposited.
 
 ```solidity
 function claimRewardFromAllPools(address _user) external nonpayable

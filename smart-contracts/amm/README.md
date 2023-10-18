@@ -6,7 +6,7 @@ description: >-
 
 # AMM
 
-<figure><img src="../../.gitbook/assets/AMM.drawio.png" alt=""><figcaption><p>Actions on the AMM</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/AMM.png" alt=""><figcaption><p>Actions on the AMM</p></figcaption></figure>
 
 The user interacts mainly with two types of contracts on the AMM:
 

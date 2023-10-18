@@ -50,7 +50,7 @@ The expected target amount.
 
 ## Conversion
 
-convertByPath converts the token to any other token in the sovryn swap network by following a predefined conversion path and transfers the result tokens to a target account. Affiliate account/fee can also be passed in to receive a conversion fee (on top of the liquidity provider fees). Please note that the network should already have been given allowance of the source token.
+convertByPath converts the token to any other token in the Sovryn swap network by following a predefined conversion path and transfers the result tokens to a target account. Affiliate account/fee can also be passed in to receive a conversion fee (on top of the liquidity provider fees). Please note that the network should already have been given allowance of the source token.
 
 ```solidity
 function convertByPath(IERC20Token[] _path, uint256 _amount, uint256 _minReturn, address _beneficiary, address _affiliateAccount, uint256 _affiliateFee) public payable protected greaterThanZero 

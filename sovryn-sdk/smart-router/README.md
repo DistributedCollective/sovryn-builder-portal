@@ -2,7 +2,7 @@
 
 The Sovryn ecosystem provides various asset conversion options with distinct implementation details and fees. We have developed the Smart Router package to enable cost-effective conversions between specific asset pairs without the need for custom code for each source.
 
-It serves as a wrapper for smart contracts, streamlining interactions across all supported asset sources. The Smart Router intelligently searches for the optimal conversion rate among the supported sources and presents it to the user, enhancing convenience and usability.&#x20;
+It serves as a wrapper for smart contracts, streamlining interactions across all supported asset sources. The Smart Router intelligently searches for the best conversion rate among the supported sources and presents it to the user, enhancing convenience and usability.&#x20;
 
 ## Installation
 

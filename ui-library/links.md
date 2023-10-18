@@ -1,10 +1,10 @@
 # Links
 
-Github repository
+GitHub repository
 
 {% embed url="https://github.com/DistributedCollective/sovryn-dapp/tree/develop/packages/ui" %}
 
-Storybook (rebuilds automatically from the `develop` branch in our Github repository):
+Storybook (rebuilds automatically from the `develop` branch in our GitHub repository):
 
 {% embed url="https://dev--sovryn-storybook.netlify.app/" %}
 

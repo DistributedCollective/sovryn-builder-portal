@@ -1,6 +1,6 @@
 # Usage
 
-Example on how to use simple graph request
+Example on how to use a simple subgraph request
 
 1. Go to the subgraph explorer: [https://subgraph.sovryn.app/subgraphs/name/DistributedCollective/sovryn-subgraph/graphql](https://subgraph.sovryn.app/subgraphs/name/DistributedCollective/sovryn-subgraph/graphql)
 

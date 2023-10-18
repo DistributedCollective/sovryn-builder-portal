@@ -4,7 +4,7 @@
 
 _Text and images on this page are derived from the official documentation for The Graph, and have been modified to more closely describe how The Graph relates to the Sovryn ecosystem:_ [_https://thegraph.com/docs/en/about/_](https://thegraph.com/docs/en/about/)
 
-The Graph is an indexing protocol for querying networks like Ethereum, BSC, or RSK. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.
+The Graph is an indexing protocol for querying networks like Ethereum, BSC, or Rootstock. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.
 
 Projects with complex smart contracts like Sovryn store data on the blockchain, meaning that any data aggregation or larger amounts of historical data need to be processed, indexed and retrieved in a different way, as reading anything other than the current state directly from the blockchain is more complex.
 

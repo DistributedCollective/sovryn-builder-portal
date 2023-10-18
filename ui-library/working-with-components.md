@@ -15,7 +15,7 @@ To create a component, follow these steps:
 5. Create an <mark style="color:red;">`index.ts`</mark> file within the component directory to export all relevant components, functions, and types from the component.
 6. Ensure the component adheres to the development team's design principles and style choices (refer to the "_Style Choices for Code Structure_" section below).
 7. Test the component (refer to the "_How to Write Unit Tests_" section below).
-8. In the "_UI Library_" section of Gitbook, provide concise documentation for the component's usage, API, and key implementation details. This ensures users have a clear understanding of how to use the component effectively in their projects.
+8. In the "_UI Library_" section of GitBook, provide concise documentation for the component's usage, API, and key implementation details. This ensures users have a clear understanding of how to use the component effectively in their projects.
 9. If the component is reusable and can be extended, consider creating documentation on how to extend it.
 10. Create a Storybook story for the component (refer to the "_Using Storybook_" section below).
 11. To display the red asterisk for required props, for instance, `children` and show the prop type in Storybook, you can update the component's prop definition by adding a description using the JSDoc syntax.\
