@@ -83,6 +83,8 @@
 * [The Graph Usage](sovryn.app/the-graph-usage.md)
 * [Links](sovryn.app/links.md)
 * [Contribution](sovryn.app/contribution.md)
+* [Dapp specific components](sovryn.app/dapp-specific-components/README.md)
+  * [MaxButton](sovryn.app/dapp-specific-components/amountinput.md)
 
 ## Smart Contracts
 
