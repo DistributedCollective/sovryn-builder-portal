@@ -30,6 +30,7 @@
   * [Checkbox](ui-library/atoms/checkbox.md)
 * [Molecules](ui-library/molecules/README.md)
   * [AmountInput](ui-library/molecules/amountinput.md)
+  * [ContextLink](ui-library/molecules/contextlink.md)
   * [Dialog](ui-library/molecules/dialog.md)
   * [Dropdown](ui-library/molecules/dropdown.md)
   * [ErrorList](ui-library/molecules/errorlist.md)
