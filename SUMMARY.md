@@ -65,6 +65,11 @@
 
 * [Smart Router](sovryn-sdk/smart-router/README.md)
   * [Creating a New Swap Route](sovryn-sdk/smart-router/creating-new-swap-route.md)
+  * [Available routes](sovryn-sdk/smart-router/available-routes/README.md)
+    * [AMM](sovryn-sdk/smart-router/available-routes/amm.md)
+    * [MoC integration](sovryn-sdk/smart-router/available-routes/moc-integration.md)
+    * [MYNT bAsset](sovryn-sdk/smart-router/available-routes/mynt-basset.md)
+    * [MYNT fixed rate](sovryn-sdk/smart-router/available-routes/mynt-fixed-rate.md)
 * [Sovryn Onboard](sovryn-sdk/sovryn-onboard/README.md)
   * [Installation](sovryn-sdk/sovryn-onboard/installation.md)
   * [Usage](sovryn-sdk/sovryn-onboard/usage.md)
