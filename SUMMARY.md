@@ -119,3 +119,5 @@
   * [Deposit](smart-contracts/liquidity-mining/deposit.md)
   * [Withdraw](smart-contracts/liquidity-mining/withdraw.md)
   * [Rewards](smart-contracts/liquidity-mining/rewards.md)
+* [FastBTC](smart-contracts/fastbtc/README.md)
+  * [RSK->BTC](smart-contracts/fastbtc/rsk-to-btc.md)
