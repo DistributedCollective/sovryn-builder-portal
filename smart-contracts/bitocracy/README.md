@@ -23,35 +23,30 @@ The difference between the `GovernorOwner` instance of `GovernorAlpha` - or, jus
 
 ## 1. [Staking](staking.md)
 
-Basic assets that are validated in the Basket Manager storage, and are aggregated to be converted 1:1 into the meta-asste token, the Sovryn Dollar or "DLLR".
+The staking contract involde a set of modules linked to proxies through the [ModulesProxy](https://github.com/DistributedCollective/Sovryn-smart-contracts/blob/7196ecbc4c20a7d215ab0eb1539d44d68a686020/contracts/proxy/modules/Readme.md) implementation.
 
-The most general function to mint DLLR is `masset.mintTo`.
+The StakingModuleProxy contract (named `ModulesProxy`) is itself a logic for the `StakingProxy` contract because its the storage is used.  
+
+Therefore the current Staking functions call flow as follow:   
+
+    StakingProxy --delegatecall--> StakingModulesProxy --delegatecall--> <Staking-Module-Contract>.<function selector>
+
+
+The most common functions to call staking are `staking.stake` and `staking.withdraw`.
 
 ## 2. [Governor](governor.md)
 
-The meta-asset token can be converted back to any of its baking assets; currently the "Dollar-on-Chain" from the Money on Chain protocol, and the "ZUSD" from Sovryn's ZERO protocol, through a "redeem" funtion.
+The `GovernorAlpha` contracts and its instances: `GovernorOwner` and `GovernorAdmin` are in the core of the Bitocracy mechanics. Through a set of proposals, and voting on them, Sovryn's community decides how the protocol evolves and funds should be assigned.
 
-The most general function to redeem DLLR is `masset.redeemTo`.
+The most common function to call are `GovernorAlpha.propose`, `GovernorAlpha.castVote`, `GovernorAlpha.queue` and `GovernorAlpha.execute`.
 
 ## 3. [Fee Sharing Collector](feeSharing.md)
 
-Mynt has an additional feature that allows users to convert DLLR directly into rBTC (native RSK asset). The conversion from ZUSD to rBTC is carried on by the ZERO protocol, but in order to do the converion via Money-on-Chain protocol (MOC), we implemented an integrator.
+It's a fee distributor among stakers, and according the weight of their stakes. This weight changes through time, and that's why the calculation method of claimable fees depends on predetermined "checkpoints" in time. This makes claim transactions heavy, and the [withdraw function](https://wiki.sovryn.com/en/technical-documents/FeeSharingContract#users-withdrawal) had to be completed with an adittional helper function.
 
-The most general function to redeem DLLR into rBTC via Money on Chain is `MocIntegration.getDocFromDllrAndRedeemRbtcWithPermit2`.
+The most common function to call are `FeeSharingCollector.withdraw` and `FeeSharingCollector.claimAllCollectedFees`.
 
 ## 4. [Vesting](vesting.md)
 
-Fees are currently disabled. But if they are ever enabled, here is how they will work:
+Vesting contracts are created through `VestingRegistry.createVestingAddr`. The entities authorized to execute this action are the `TimelockOwner` or any of the admins delegated by the exchequer.
 
-##### **`- mint`**( take bAssets, mint mAssets in exchange )
-&NewLine;
-##### **- fees**
--   substract fee from calculated mAsset mint amount
--   fees does not impact the amount of bAssets, all of them are transfered to pool 
-
-
-##### **`- redeem`**( burn mAssets, transfer bAssets from pool in exchange  )
-&NewLine;
-##### **- fees**
--   transfer calculated amount before all conversions
--   substract from massets to burn and bassets to transfer
