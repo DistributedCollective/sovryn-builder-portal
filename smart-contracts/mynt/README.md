@@ -13,19 +13,19 @@ By aggregating multiple different BTC-backed stablecoins, each with their own is
 
 Masset contract is the main element in the protocol.
 
-## 1. Basset to Masset Conversion
+## 1. [Basset to Masset Conversion](basset-to-masset.md)
 
 Basic assets that are validated in the Basket Manager storage, and are aggregated to be converted 1:1 into the meta-asste token, the Sovryn Dollar or "DLLR".
 
 The most general function to mint DLLR is `masset.mintTo`.
 
-## 2. Masset to Basset Conversion
+## 2. [Masset to Basset Conversion](masset-to-basset.md)
 
 The meta-asset token can be converted back to any of its baking assets; currently the "Dollar-on-Chain" from the Money on Chain protocol, and the "ZUSD" from Sovryn's ZERO protocol, through a "redeem" funtion.
 
 The most general function to redeem DLLR is `masset.redeemTo`.
 
-## 3. Money On Chain Integration
+## 3. [Money On Chain Integration](moc-integration.md)
 
 Mynt has an additional feature that allows users to convert DLLR directly into rBTC (native RSK asset). The conversion from ZUSD to rBTC is carried on by the ZERO protocol, but in order to do the converion via Money-on-Chain protocol (MOC), we implemented an integrator.
 
