@@ -3,13 +3,13 @@ description: >-
   Bitocracy is the heart the Sovryn's protocol. It is the mechanism that enables the governance of its code and the incentive to maintain the system through the distribution of dividends.
 ---
 
-# BITOCRACY
+# [BITOCRACY](https://wiki.sovryn.com/en/governance/about-sovryn-governance)
 
 <figure><img src="../../.gitbook/assets/bitocracy.png" alt=""><figcaption><p>Sovryn's Bitocracy</p></figcaption></figure>
 
 Bitocracy is based on three basic modules: Staking, Governance and Fee Sharing modules. When a user acquires some SOV asset they are able to put it in a stake position. The position value depends on the time the asset is committed, and the relation between time, asset amount and value is close to - when not exactly - a quadratic function.
 
-**Staking**: For this, the user needs to `approve` the handling of the SOV asset to the Staking contract, and then call `Staking.stake`. This action makes the user into a "staker".
+**Staking**: For this, the user needs to `approve` the handling of the SOV asset to the Staking contract, and then call `Staking.stake`. This action makes the user into a "staker". The user can withdraw their assets - `Staking.withdraw` - in any moment, however, there will be a "slashing" or punishment, to which the user agreed in case of withdrawing before the term of the committed date of the staking position. The slashing penalty has a [maximum of 30%](https://wiki.sovryn.com/en/governance/about-sovryn-governance#early-unstaking-penalty).
 
 **Governor**: Having a staking position allows the user to vote for a proposal (`castVote`), and under certain conditions - having a net 1% of current total voting power in all their staking positions - to make a proposal (`propose`). If a proposal reaches enough votes in favor - the status of the proposal is "succeeded" - anybody can call the function `Governor.queue`, which prepares the proposal to be executed; and after a `delay` time window - which is 48 hours for the `GovernorOwner` and `TimelockOwner`, and 24 hours for `GovernorAdmin` and `TimelockAdmin` - anybody can call the function `Governor.execute`.
 
@@ -23,7 +23,7 @@ The difference between the `GovernorOwner` instance of `GovernorAlpha` - or, jus
 
 ## 1. [Staking](staking.md)
 
-The staking contract involde a set of modules linked to proxies through the [ModulesProxy](https://github.com/DistributedCollective/Sovryn-smart-contracts/blob/7196ecbc4c20a7d215ab0eb1539d44d68a686020/contracts/proxy/modules/Readme.md) implementation.
+The staking contract involve a set of modules linked to proxies through the [ModulesProxy](https://github.com/DistributedCollective/Sovryn-smart-contracts/blob/7196ecbc4c20a7d215ab0eb1539d44d68a686020/contracts/proxy/modules/Readme.md) implementation.
 
 The StakingModuleProxy contract (named `ModulesProxy`) is itself a logic for the `StakingProxy` contract because its the storage is used.  
 
@@ -42,7 +42,7 @@ The most common function to call are `GovernorAlpha.propose`, `GovernorAlpha.cas
 
 ## 3. [Fee Sharing Collector](feeSharing.md)
 
-It's a fee distributor among stakers, and according the weight of their stakes. This weight changes through time, and that's why the calculation method of claimable fees depends on predetermined "checkpoints" in time. This makes claim transactions heavy, and the [withdraw function](https://wiki.sovryn.com/en/technical-documents/FeeSharingContract#users-withdrawal) had to be completed with an adittional helper function.
+It's a fee distributor among stakers, and according the weight of their stakes. This weight changes through time, and that's why the calculation method of claimable fees depends on predetermined "checkpoints" in time. This makes claim transactions heavy, and the [withdraw function](https://wiki.sovryn.com/en/technical-documents/FeeSharingContract#users-withdrawal) had to be completed with an additional helper function.
 
 The most common function to call are `FeeSharingCollector.withdraw` and `FeeSharingCollector.claimAllCollectedFees`.
 
