@@ -36,7 +36,7 @@ function createVestingAddr(
 
 ## VESTING FUNDING
 
-Once the vesting has been created, the admin must first `approve` the handling of the SOV assets to `VestingRegistry`. Then the finds can be staked through: `VestingRegistry.stakeTokens`.
+Once the vesting has been created, the admin must first `approve` the handling of the SOV assets to `VestingRegistry`. Then the funds can be staked through: `VestingRegistry.stakeTokens`.
 
 ```solidity
 function stakeTokens(address _vesting, uint256 _amount) external onlyAuthorized 
