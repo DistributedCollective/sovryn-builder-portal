@@ -1,9 +1,11 @@
 ---
 description: >-
-  Staking contract allows SOV owners to put their assets in a locked position, commiTted until a given date. In exchange the user receives rights in the voting system (the `GovernorAlpha` contract) and in the fee sharing contract rewarding them with a cut of the fees collected by the Sovryn protocol. This whole system - staking, governance and fee sharing - is known as "Bitocracy".
+  Staking contract allows SOV owners to put their assets in a locked position, commiTted until a given date.
 ---
 
 # STAKING CONTRACT
+
+Staking contract allows SOV owners to put their assets in a locked position, commiTted until a given date. In exchange the user receives rights in the voting system (the `GovernorAlpha` contract) and in the fee sharing contract rewarding them with a cut of the fees collected by the Sovryn protocol. This whole system - staking, governance and fee sharing - is known as "Bitocracy".
 
 <figure><img src="../../.gitbook/assets/staking.png" alt=""><figcaption><p>Smart Contract Structure for Staking Contract</p></figcaption></figure>
 

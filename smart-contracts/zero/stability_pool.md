@@ -1,6 +1,6 @@
 ---
 description: >-
-  Liquidations that involve a Stability Pool offset burn ZUSD from the Stability Pool’s balance, and reduce the ZUSD debt of the liquidated Line of Credit. The only time ZUSD is transferred to/from a Zero contract, is when a user deposits ZUSD to, or withdraws ZUSD from, the StabilityPool.
+  Liquidations that involve a Stability Pool offset burn ZUSD from the Stability Pool’s balance, and reduce the ZUSD debt of the liquidated Line of Credit.
 ---
 
 # Stability Pool Functions - `StabilityPool.sol`
@@ -62,6 +62,8 @@ Gas compensation functions are found in the parent _LiquityBase.sol_ contract:
 `_getCompositeDebt(uint _debt)` returns the composite debt (drawn debt + gas compensation) of a Line of Credit, for the purpose of ICR calculation.
 
 # The Stability Pool
+
+Liquidations that involve a Stability Pool offset burn ZUSD from the Stability Pool’s balance, and reduce the ZUSD debt of the liquidated Line of Credit. The only time ZUSD is transferred to/from a Zero contract, is when a user deposits ZUSD to, or withdraws ZUSD from, the StabilityPool.
 
 Any ZUSD holder may deposit ZUSD to the Stability Pool. It is designed to absorb debt from liquidations, and reward depositors with the liquidated collateral, shared between depositors in proportion to their deposit size.
 

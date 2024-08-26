@@ -1,9 +1,11 @@
 ---
 description: >-
-  We use a highly scalable method of tracking deposits and RBTC rewards that has O(1) complexity. A mathematical manipulation allows us to factor out the initial deposit, and accurately track all depositors’ compounded deposits and accumulated RBTC gains over time, as liquidations occur, using just these two variables: a product and a sum.
+  We use a highly scalable method of tracking deposits and RBTC rewards that has O(1) complexity.
 ---
 
 # REWARD SYSTEM  
+
+We use a highly scalable method of tracking deposits and RBTC rewards that has O(1) complexity. A mathematical manipulation allows us to factor out the initial deposit, and accurately track all depositors’ compounded deposits and accumulated RBTC gains over time, as liquidations occur, using just these two variables: a product and a sum.  
 
 When a liquidation occurs, rather than updating each depositor’s deposit and RBTC gain, we simply update two intermediate variables: a product `P`, and a sum `S`.  
 

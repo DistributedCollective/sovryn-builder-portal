@@ -1,9 +1,11 @@
 ---
 description: >-
-  When a user borrows from their Line of Credit, ZUSD tokens are minted to their own address, and a debt is recorded on the Line of Credit. Conversely, when they repay their Line of Credit’s ZUSD debt, ZUSD is burned from their address, and the debt on their Line of Credit is reduced.
+  When a user borrows from their Line of Credit, ZUSD tokens are minted to their own address, and a debt is recorded on the Line of Credit.
 ---
 
-# Borrower (Trove) Operations - `BorrowerOperations.sol`
+# Borrower (Trove) Operations - `BorrowerOperations.sol`  
+
+When a user borrows from their Line of Credit, ZUSD tokens are minted to their own address, and a debt is recorded on the Line of Credit. Conversely, when they repay their Line of Credit’s ZUSD debt, ZUSD is burned from their address, and the debt on their Line of Credit is reduced.
 
 `openTrove(uint _maxFeePercentage, uint _ZUSDAmount, address _upperHint, address _lowerHint)`: payable function that creates a Line of Credit for the caller with the requested debt, and the RBTC received as collateral. Successful execution is conditional mainly on the resulting collateralization ratio which must exceed the minimum (110% in Normal Mode, 150% in Recovery Mode). In addition to the requested debt, extra debt is issued to pay the issuance fee, and cover the gas compensation. The borrower has to provide a `_maxFeePercentage` that he/she is willing to accept in case of a fee slippage, i.e. when a redemption transaction is processed first, driving up the issuance fee. 
 

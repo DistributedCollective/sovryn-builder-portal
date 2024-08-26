@@ -1,9 +1,11 @@
 ---
 description: >-
-  Vesting contracts allows contributors and users that participate in certain programs like farming, to earn SOV assets in a programmed way, avoiding a negative impact in the circulating supply economy of the token -or tokenomics-.
+  Vesting contracts allows contributors and users that participate in certain programs like farming, to earn SOV assets in a programmed way.
 ---
 
 # VESTING CONTRACTS
+
+Vesting contracts allows contributors and users that participate in certain programs like farming, to earn SOV assets in a programmed way, avoiding a negative impact in the circulating supply economy of the token -or tokenomics-.
 
 <figure><img src="../../.gitbook/assets/vesting_diagram.png" alt=""><figcaption><p>Vesting Contracts Protocol</p></figcaption></figure>
 
