@@ -17,12 +17,12 @@ addColl(address _upperHint, address _lowerHint)
 ``` 
 Payable function that adds the received RBTC to the caller's active Line of Credit.
 
-```solidiy
+```solidity
 withdrawColl(uint _amount, address _upperHint, address _lowerHint)
 ``` 
 Withdraws `_amount` of collateral from the caller’s Line of Credit. Executes only if the user has an active Line of Credit, the withdrawal would not pull the user’s Line of Credit below the minimum collateralization ratio, and the resulting total collateralization ratio of the system is above 150%. 
 
-```solidiy
+```solidity
 function withdrawZUSD(uint _maxFeePercentage, uint _ZUSDAmount, address _upperHint, address _lowerHint)
 ``` 
 Issues `_amount` of ZUSD from the caller’s Line of Credit to the caller. Executes only if the Line of Credit's collateralization ratio would remain above the minimum, and the resulting total collateralization ratio is above 150%. The borrower has to provide a `_maxFeePercentage` that they are willing to accept in case of a fee slippage i.e. when a redemption transaction is processed first, driving up the borrowing fee.
