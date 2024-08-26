@@ -3,7 +3,7 @@ description: >-
   When a user borrows from their Line of Credit, ZUSD tokens are minted to their own address, and a debt is recorded on the Line of Credit.
 ---
 
-# Borrower (Trove) Operations - `BorrowerOperations.sol`  
+# [Borrower (Trove) Operations](https://github.com/DistributedCollective/zero/blob/main/README.md#borrower-trove-operations---borroweroperationssol) - `BorrowerOperations.sol`  
 
 When a user borrows from their Line of Credit, ZUSD tokens are minted to their own address, and a debt is recorded on the Line of Credit. Conversely, when they repay their Line of Credit’s ZUSD debt, ZUSD is burned from their address, and the debt on their Line of Credit is reduced.
 

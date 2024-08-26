@@ -3,7 +3,7 @@ description: >-
   Liquidations that involve a Stability Pool offset burn ZUSD from the Stability Pool’s balance, and reduce the ZUSD debt of the liquidated Line of Credit.
 ---
 
-# Stability Pool Functions - `StabilityPool.sol`
+# [Stability Pool Functions](https://github.com/DistributedCollective/zero/blob/main/README.md#stability-pool-functions---stabilitypoolsol) - `StabilityPool.sol`
 
 `provideToSP(uint _amount, address _frontEndTag)`: allows stablecoin holders to deposit `_amount` of ZUSD to the Stability Pool. It sends `_amount` of ZUSD from their address to the Pool, and tops up their ZUSD deposit by `_amount` and their tagged frontend’s stake by `_amount`. If the depositor already has a non-zero deposit, it sends their accumulated RBTC gains to their address.
 

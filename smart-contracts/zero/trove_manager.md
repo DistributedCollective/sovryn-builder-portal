@@ -3,7 +3,7 @@ description: >-
   Redemptions burn ZUSD from the redeemer’s balance, and reduce the debt of the Line of Credit redeemed against.
 ---
 
-# Line of Credit Manager Functions - `TroveManager.sol`
+# [Line of Credit Manager Functions](https://github.com/DistributedCollective/zero/blob/main/README.md#line-of-credit-manager-functions---trovemanagersol) - `TroveManager.sol`
 
 `liquidate(address _borrower)`: callable by anyone, attempts to liquidate the Line of Credit of `_user`. Executes successfully if `_user`’s Line of Credit meets the conditions for liquidation (e.g. in Normal Mode, it liquidates if the Line of Credit's ICR < the system Critical Collateral Ratio [CCR]).  
 

@@ -3,7 +3,7 @@ description: >-
   We use a highly scalable method of tracking deposits and RBTC rewards that has O(1) complexity.
 ---
 
-# REWARD SYSTEM  
+# [REWARD SYSTEM ](https://github.com/DistributedCollective/zero/blob/main/README.md#zero-system-fees) 
 
 We use a highly scalable method of tracking deposits and RBTC rewards that has O(1) complexity. A mathematical manipulation allows us to factor out the initial deposit, and accurately track all depositors’ compounded deposits and accumulated RBTC gains over time, as liquidations occur, using just these two variables: a product and a sum.  
 
