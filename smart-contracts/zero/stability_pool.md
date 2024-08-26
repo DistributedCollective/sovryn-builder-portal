@@ -5,15 +5,30 @@ description: >-
 
 # [Stability Pool Functions](https://github.com/DistributedCollective/zero/blob/main/README.md#stability-pool-functions---stabilitypoolsol) - `StabilityPool.sol`
 
-`provideToSP(uint _amount, address _frontEndTag)`: allows stablecoin holders to deposit `_amount` of ZUSD to the Stability Pool. It sends `_amount` of ZUSD from their address to the Pool, and tops up their ZUSD deposit by `_amount` and their tagged frontend’s stake by `_amount`. If the depositor already has a non-zero deposit, it sends their accumulated RBTC gains to their address.
+```solidity
+provideToSP(uint _amount, address _frontEndTag)
+```
+: allows stablecoin holders to deposit `_amount` of ZUSD to the Stability Pool. It sends `_amount` of ZUSD from their address to the Pool, and tops up their ZUSD deposit by `_amount` and their tagged frontend’s stake by `_amount`. If the depositor already has a non-zero deposit, it sends their accumulated RBTC gains to their address.
 
-`withdrawFromSP(uint _amount)`: allows a ZUSD holder to withdraw `_amount` of ZUSD from the Stability Pool, up to the value of their remaining Stability Pool deposit. It decreases their ZUSD balance by `_amount`. It sends the depositor’s accumulated RBTC gains to their address. If the user makes a partial withdrawal, their deposit remainder will earn further gains. To prevent potential loss evasion by depositors, withdrawals from the Stability Pool are suspended when there are liquidable Lines of Credit with ICR < 110% in the system.
+```solidity
+withdrawFromSP(uint _amount)
+```
+: allows a ZUSD holder to withdraw `_amount` of ZUSD from the Stability Pool, up to the value of their remaining Stability Pool deposit. It decreases their ZUSD balance by `_amount`. It sends the depositor’s accumulated RBTC gains to their address. If the user makes a partial withdrawal, their deposit remainder will earn further gains. To prevent potential loss evasion by depositors, withdrawals from the Stability Pool are suspended when there are liquidable Lines of Credit with ICR < 110% in the system.
 
-`withdrawRBTCGainToTrove(address _hint)`: sends the user's entire accumulated RBTC gain to the user's active Line of Credit, and updates their Stability Pool deposit with its accumulated loss from debt absorptions.
+```solidity
+withdrawRBTCGainToTrove(address _hint)
+```
+: sends the user's entire accumulated RBTC gain to the user's active Line of Credit, and updates their Stability Pool deposit with its accumulated loss from debt absorptions.
 
-`getDepositorRBTCGain(address _depositor)`: returns the accumulated RBTC gain for a given Stability Pool depositor
+```solidity
+getDepositorRBTCGain(address _depositor)
+```
+: returns the accumulated RBTC gain for a given Stability Pool depositor
 
-`getCompoundedZUSDDeposit(address _depositor)`: returns the remaining deposit amount for a given Stability Pool depositor
+```solidity
+getCompoundedZUSDDeposit(address _depositor)
+```
+: returns the remaining deposit amount for a given Stability Pool depositor
 
 ## Gas compensation
 
@@ -57,9 +72,15 @@ But if the redemption causes an amount (debt - 20) to be cancelled, the Line of 
 
 Gas compensation functions are found in the parent _LiquityBase.sol_ contract:
 
-`_getCollGasCompensation(uint _entireColl)` returns the amount of RBTC to be drawn from a Line of Credit's collateral and sent as gas compensation. 
+```solidity
+_getCollGasCompensation(uint _entireColl)
+``` 
+returns the amount of RBTC to be drawn from a Line of Credit's collateral and sent as gas compensation. 
 
-`_getCompositeDebt(uint _debt)` returns the composite debt (drawn debt + gas compensation) of a Line of Credit, for the purpose of ICR calculation.
+```solidity
+_getCompositeDebt(uint _debt)
+``` 
+returns the composite debt (drawn debt + gas compensation) of a Line of Credit, for the purpose of ICR calculation.
 
 # The Stability Pool
 

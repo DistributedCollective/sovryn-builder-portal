@@ -112,7 +112,7 @@ When a Line of Credit is opened, its stake is calculated based on its collateral
 
 A Line of Credit’s stake is given by:
 
-```
+```javascript
 stake = _coll.mul(totalStakesSnapshot).div(totalCollateralSnapshot)
 ```
 
