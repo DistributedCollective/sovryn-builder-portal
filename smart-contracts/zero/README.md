@@ -7,6 +7,8 @@ description: >-
 
 Zero is a collateralized debt platform. Users can lock up collateral (RBTC), issue stablecoins (ZUSD) to their own RSK address, and subsequently transfer those stablecoins to any other RSK address. The individual collateralized debt positions are called Lines of Credit (aka Troves).
 
+[Source](https://github.com/DistributedCollective/zero/blob/main/README.md#zero-overview).
+
 The stablecoins are economically geared towards maintaining a value of 1 ZUSD = 1 USD, due to the following properties:
 
 1. The system is always designed to be over-collateralized - the dollar value of the locked RBTC exceeds the dollar value of the issued ZUSD

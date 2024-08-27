@@ -5,57 +5,88 @@ description: >-
 
 # [Borrower (Trove) Operations](https://github.com/DistributedCollective/zero/blob/main/README.md#borrower-trove-operations---borroweroperationssol) - `BorrowerOperations.sol`  
 
-When a user borrows from their Line of Credit, ZUSD tokens are minted to their own address, and a debt is recorded on the Line of Credit. Conversely, when they repay their Line of Credit’s ZUSD debt, ZUSD is burned from their address, and the debt on their Line of Credit is reduced.
+When a user borrows from their Line of Credit, ZUSD tokens are minted to their own address, and a debt is recorded on the Line of Credit. Conversely, when they repay their Line of Credit’s ZUSD debt, ZUSD is burned from their address, and the debt on their Line of Credit is reduced.  
+
+[Source](https://github.com/DistributedCollective/zero/blob/main/README.md#borrower-trove-operations---borroweroperationssol).
 
 ```solidity
-openTrove(uint _maxFeePercentage, uint _ZUSDAmount, address _upperHint, address _lowerHint)
+  openTrove(
+    uint _maxFeePercentage, 
+    uint _ZUSDAmount, 
+    address _upperHint, 
+    address _lowerHint)
 ```
 Payable function that creates a Line of Credit for the caller with the requested debt, and the RBTC received as collateral. Successful execution is conditional mainly on the resulting collateralization ratio which must exceed the minimum (110% in Normal Mode, 150% in Recovery Mode). In addition to the requested debt, extra debt is issued to pay the issuance fee, and cover the gas compensation. The borrower has to provide a `_maxFeePercentage` that he/she is willing to accept in case of a fee slippage, i.e. when a redemption transaction is processed first, driving up the issuance fee. 
 
 ```solidity
-addColl(address _upperHint, address _lowerHint)
+  addColl(
+    address _upperHint, 
+    address _lowerHint)
 ``` 
 Payable function that adds the received RBTC to the caller's active Line of Credit.
 
 ```solidity
-withdrawColl(uint _amount, address _upperHint, address _lowerHint)
+  withdrawColl(
+    uint _amount, 
+    address _upperHint, 
+    address _lowerHint)
 ``` 
 Withdraws `_amount` of collateral from the caller’s Line of Credit. Executes only if the user has an active Line of Credit, the withdrawal would not pull the user’s Line of Credit below the minimum collateralization ratio, and the resulting total collateralization ratio of the system is above 150%. 
 
 ```solidity
-function withdrawZUSD(uint _maxFeePercentage, uint _ZUSDAmount, address _upperHint, address _lowerHint)
+  function withdrawZUSD(
+    uint _maxFeePercentage, 
+    uint _ZUSDAmount, 
+    address _upperHint, 
+    address _lowerHint)
 ``` 
 Issues `_amount` of ZUSD from the caller’s Line of Credit to the caller. Executes only if the Line of Credit's collateralization ratio would remain above the minimum, and the resulting total collateralization ratio is above 150%. The borrower has to provide a `_maxFeePercentage` that they are willing to accept in case of a fee slippage i.e. when a redemption transaction is processed first, driving up the borrowing fee.
 
 ```solidity
-repayZUSD(uint _amount, address _upperHint, address _lowerHint)
+  repayZUSD(
+    uint _amount, 
+    address _upperHint, 
+    address _lowerHint)
 ``` 
 Repay `_amount` of ZUSD to the caller’s Line of Credit, subject to leaving 20 ZUSD debt in the Line of Credit (which corresponds to the 20 ZUSD gas compensation).
 
 ```solidity
-_adjustTrove(address _borrower, uint _collWithdrawal, uint _debtChange, bool _isDebtIncrease, address _upperHint, address _lowerHint, uint _maxFeePercentage)
+  _adjustTrove(
+    address _borrower, 
+    uint _collWithdrawal, 
+    uint _debtChange, 
+    bool _isDebtIncrease, 
+    address _upperHint, 
+    address _lowerHint, 
+    uint _maxFeePercentage)
 ``` 
 Enables a borrower to simultaneously change both their collateral and debt, subject to all the restrictions that apply to individual increases/decreases of each quantity with the following particularity: if the adjustment reduces the collateralization ratio of the Line of Credit, the function only executes if the resulting total collateralization ratio is above 150%. The borrower has to provide a `_maxFeePercentage` that they are willing to accept in case of a fee slippage i.e. when a redemption transaction is processed first, driving up the borrowing fee. The parameter is ignored if the debt is not increased with the transaction.
 
 ```solidity
-closeTrove()
+  closeTrove()
 ```
 : allows a borrower to repay all debt, withdraw all their collateral, and close their Line of Credit. Requires the borrower to have a ZUSD balance sufficient to repay their Line of Credit's debt, excluding gas compensation - i.e. `(debt - 20)` ZUSD.
 
 ```solidity
-claimCollateral(address _user)
+  claimCollateral(address _user)
 ```
 : when a borrower’s Line of Credit has been fully redeemed from and closed, or liquidated in Recovery Mode with a collateralization ratio above 110%, this function allows the borrower to claim their RBTC collateral surplus that remains in the system (collateral - debt upon redemption; collateral - 110% of the debt upon liquidation).
 
 ## Hint Helper Functions - `HintHelpers.sol`
 
 ```solidity
-function getApproxHint(uint _CR, uint _numTrials, uint _inputRandomSeed)
+  function getApproxHint(
+    uint _CR, 
+    uint _numTrials, 
+    uint _inputRandomSeed)
 ```
 : helper function, returns a positional hint for the sorted list. Used for transactions that must efficiently re-insert a Line of Credit  to the sorted list.
 
 ```solidity
-getRedemptionHints(uint _ZUSDamount, uint _price, uint _maxIterations)
+  getRedemptionHints(
+    uint _ZUSDamount, 
+    uint _price, 
+    uint _maxIterations)
 ```
 : helper function specifically for redemptions. Returns three hints:
 

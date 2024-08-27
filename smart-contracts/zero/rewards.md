@@ -7,6 +7,8 @@ description: >-
 
 We use a highly scalable method of tracking deposits and RBTC rewards that has O(1) complexity. A mathematical manipulation allows us to factor out the initial deposit, and accurately track all depositors’ compounded deposits and accumulated RBTC gains over time, as liquidations occur, using just these two variables: a product and a sum.  
 
+[Source](https://github.com/DistributedCollective/zero/blob/main/README.md#zero-system-fees).
+
 When a liquidation occurs, rather than updating each depositor’s deposit and RBTC gain, we simply update two intermediate variables: a product `P`, and a sum `S`.  
 
 The formula for a depositor’s accumulated RBTC gain is derived here:
@@ -113,7 +115,7 @@ When a Line of Credit is opened, its stake is calculated based on its collateral
 A Line of Credit’s stake is given by:
 
 ```javascript
-stake = _coll.mul(totalStakesSnapshot).div(totalCollateralSnapshot)
+  stake = _coll.mul(totalStakesSnapshot).div(totalCollateralSnapshot)
 ```
 
 It then earns redistribution rewards based on this corrected stake. A newly opened Line of Credit’s stake will be less than its raw collateral, if the system contains active Lines of Credit with pending redistribution rewards when it was made.

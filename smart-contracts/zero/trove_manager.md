@@ -3,70 +3,81 @@ description: >-
   Redemptions burn ZUSD from the redeemer’s balance, and reduce the debt of the Line of Credit redeemed against.
 ---
 
-# [Line of Credit Manager Functions](https://github.com/DistributedCollective/zero/blob/main/README.md#line-of-credit-manager-functions---trovemanagersol) - `TroveManager.sol`
+# [Line of Credit Manager Functions](https://github.com/DistributedCollective/zero/blob/main/README.md#line-of-credit-manager-functions---trovemanagersol) - `TroveManager.sol`  
+
+[Source](https://github.com/DistributedCollective/zero/blob/main/README.md#line-of-credit-manager-functions---trovemanagersol).
 
 ```solidity
-liquidate(address _borrower)
+  liquidate(address _borrower)
 ```
 : callable by anyone, attempts to liquidate the Line of Credit of `_user`. Executes successfully if `_user`’s Line of Credit meets the conditions for liquidation (e.g. in Normal Mode, it liquidates if the Line of Credit's ICR < the system Critical Collateral Ratio [CCR]).  
 
 ```solidity
-liquidateTroves(uint n)
+  liquidateTroves(uint n)
 ```
 : callable by anyone, checks for under-collateralized Lines of Credit below MCR and liquidates up to `n`, starting from the Line of Credit  with the lowest collateralization ratio; subject to gas constraints and the actual number of under-collateralized Lines of Credit. The gas costs of `liquidateTroves(uint n)` mainly depend on the number of Lines of Credit that are liquidated, and whether the Lines of Credit are offset against the Stability Pool or redistributed. For n=1, the gas costs per liquidated Line of Credit are roughly between 215K-400K, for n=5 between 80K-115K, for n=10 between 70K-82K, and for n=50 between 60K-65K.
 
 ```solidity
-batchLiquidateTroves(address[] calldata _troveArray)
+  batchLiquidateTroves(address[] calldata _troveArray)
 ```
 : callable by anyone, accepts a custom list of Line of Credit addresses as an argument. Steps through the provided list and attempts to liquidate every Line of Credit, until it reaches the end or it runs out of gas. A Line of Credit is liquidated only if it meets the conditions for liquidation. For a batch of 10 Lines of Credit, the gas costs per liquidated Line of Credit are roughly between 75K-83K, for a batch of 50 Lines of Credit between 54K-69K.
 
 ```solidity
-redeemCollateral(uint _ZUSDAmount, address _firstRedemptionHint, address _upperPartialRedemptionHint, address _lowerPartialRedemptionHint, uint _partialRedemptionHintNICR, uint _maxIterations, uint _maxFeePercentage)
+  redeemCollateral(
+    uint _ZUSDAmount, 
+    address _firstRedemptionHint, 
+    address _upperPartialRedemptionHint, 
+    address _lowerPartialRedemptionHint, 
+    uint _partialRedemptionHintNICR, 
+    uint _maxIterations, 
+    uint _maxFeePercentage)
 ```
 : redeems `_ZUSDamount` of ZUSD for RBTC from the system. Decreases the caller’s ZUSD balance, and sends them the corresponding amount of RBTC. Executes successfully if the caller has sufficient ZUSD to redeem. The number of Lines of Credit redeemed from is capped by `_maxIterations`. The borrower has to provide a `_maxFeePercentage` that he/she is willing to accept in case of a fee slippage i.e. when another redemption transaction is processed first, driving up the redemption fee.
 
 ```solidity
-getCurrentICR(address _user, uint _price)
+  getCurrentICR(
+    address _user, 
+    uint _price)
 ```
 : computes the user’s individual collateralization ratio (ICR) based on their total collateral and total ZUSD debt. Returns 2^256 -1 if they have 0 debt.
 
 ```solidity
-getTroveOwnersCount()
+  getTroveOwnersCount()
 ```
 : get the number of active lines of credit in the system.
 
 ```solidity
-getPendingRBTCReward(address _borrower)
+  getPendingRBTCReward(address _borrower)
 ```
 : get the pending RBTC reward from liquidation redistribution events, for the given Line of Credit .
 
 ```solidity
-getPendingZUSDDebtReward(address _borrower)
+  getPendingZUSDDebtReward(address _borrower)
 ```
 : get the pending Line of Credit debt "reward" (i.e. the amount of extra debt assigned to the Line of Credit) from liquidation redistribution events.
 
 ```solidity
-getEntireDebtAndColl(address _borrower)
+  getEntireDebtAndColl(address _borrower)
 ```
 : returns a Line of Credit’s entire debt and collateral balance, which respectively include any pending debt rewards and RBTC rewards from prior redistributions.
 
 ```solidity
-getEntireSystemColl()
+  getEntireSystemColl()
 ```
 :  Returns the systemic entire collateral allocated to Lines of Credit i.e. the sum of the RBTC in the Active Pool and the Default Pool.
 
 ```solidity
-getEntireSystemDebt()
+  getEntireSystemDebt()
 ``` 
 Returns the systemic entire debt assigned to Lines of Credit i.e. the sum of the ZUSDDebt in the Active Pool and the Default Pool.
 
 ```solidity
-getTCR()
+  getTCR()
 ```
 : returns the total collateralization ratio (TCR) of the system. The TCR is based on the the entire system debt and collateral (including pending rewards).
 
 ```solidity
-checkRecoveryMode()
+  checkRecoveryMode()
 ```
 : reveals whether or not the system is in Recovery Mode (i.e. whether the Total Collateralization Ratio (TCR) is below the Critical Collateralization Ratio (CCR)).
 
